@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ae8b522b0bb0aa3052fc2e41437ae2a5",
-    "content-hash": "53d22367c5ced4afbb05d172cf8b64c7",
+    "hash": "bc1fc17d17f7c63cf94a0bbebe9c8778",
+    "content-hash": "de1c68459607ccf2b2a089d4f28ab23d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -216,6 +216,89 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
+                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2015-10-04 16:44:32"
+        },
+        {
+            "name": "erusev/parsedown-extra",
+            "version": "0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown-extra.git",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ParsedownExtra": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "An extension of Parsedown that adds support for Markdown Extra.",
+            "homepage": "https://github.com/erusev/parsedown-extra",
+            "keywords": [
+                "markdown",
+                "markdown extra",
+                "parsedown",
+                "parser"
+            ],
+            "time": "2015-11-01 10:19:22"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1173,6 +1256,68 @@
             "time": "2016-06-14 23:51:41"
         },
         {
+            "name": "orchestra/facile",
+            "version": "v3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/facile.git",
+                "reference": "cd00e73a175621702786fb45bbefeea1d705e377"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/cd00e73a175621702786fb45bbefeea1d705e377",
+                "reference": "cd00e73a175621702786fb45bbefeea1d705e377",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.3.0",
+                "orchestra/support": "~3.3.0",
+                "php": ">=5.6.0",
+                "spatie/array-to-xml": "~2.0"
+            },
+            "require-dev": {
+                "illuminate/container": "~5.3.0",
+                "illuminate/database": "~5.3.0",
+                "illuminate/http": "~5.3.0",
+                "illuminate/pagination": "~5.3.0",
+                "mockery/mockery": "^0.9.4"
+            },
+            "suggest": {
+                "laravel/framework": "Allow using orchestra/facile component outside of Orchestra Platform (~5.3).",
+                "orchestra/foundation": "Allow using orchestra/facile with Orchestra Platform (~3.3)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Facile\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Facile Component for Orchestra Platform",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/facile/",
+            "keywords": [
+                "laravel",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2016-06-14 21:16:58"
+        },
+        {
             "name": "orchestra/foundation",
             "version": "3.3.x-dev",
             "source": {
@@ -1803,6 +1948,66 @@
             "time": "2016-06-14 21:49:49"
         },
         {
+            "name": "orchestra/story",
+            "version": "3.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/story.git",
+                "reference": "e93758e3def2487113eedc36fc94372a02754634"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/e93758e3def2487113eedc36fc94372a02754634",
+                "reference": "e93758e3def2487113eedc36fc94372a02754634",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.1",
+                "erusev/parsedown-extra": "~0.2",
+                "orchestra/contracts": "~3.3.0",
+                "orchestra/facile": "~3.3.0",
+                "orchestra/support": "~3.3.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.1",
+                "orchestra/foundation": "~3.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "resources/database/migrations"
+                ],
+                "psr-4": {
+                    "Orchestra\\Story\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "CMS Extension for Orchestra Platform",
+            "keywords": [
+                "cms",
+                "laravel",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2016-05-31 12:43:53"
+        },
+        {
             "name": "orchestra/support",
             "version": "v3.3.0",
             "source": {
@@ -2261,6 +2466,55 @@
                 "shell"
             ],
             "time": "2016-03-09 05:03:14"
+        },
+        {
+            "name": "spatie/array-to-xml",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/array-to-xml.git",
+                "reference": "914ab43491b2929b741281d71c574d9b1fad430c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/array-to-xml/zipball/914ab43491b2929b741281d71c574d9b1fad430c",
+                "reference": "914ab43491b2929b741281d71c574d9b1fad430c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ArrayToXml\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://murze.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convert an array to xml",
+            "homepage": "https://github.com/spatie/array-to-xml",
+            "keywords": [
+                "array",
+                "convert",
+                "xml"
+            ],
+            "time": "2016-02-23 14:22:17"
         },
         {
             "name": "swiftmailer/swiftmailer",
