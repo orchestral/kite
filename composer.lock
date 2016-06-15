@@ -451,12 +451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "13e84e8fdb47175901634dab94d0ec392969638f"
+                "reference": "49c076ec63026e54fb8f2e85af2fe129f3b44d01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/13e84e8fdb47175901634dab94d0ec392969638f",
-                "reference": "13e84e8fdb47175901634dab94d0ec392969638f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/49c076ec63026e54fb8f2e85af2fe129f3b44d01",
+                "reference": "49c076ec63026e54fb8f2e85af2fe129f3b44d01",
                 "shasum": ""
             },
             "require": {
@@ -571,7 +571,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-06-15 00:25:19"
+            "time": "2016-06-15 13:31:26"
         },
         {
             "name": "laravie/html",
@@ -1323,12 +1323,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "2e6ce096835f9db3f1e105f62048773dc6dbe8f8"
+                "reference": "b8d1505c7dd75a4accd731f30873d7acf0b83fc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/2e6ce096835f9db3f1e105f62048773dc6dbe8f8",
-                "reference": "2e6ce096835f9db3f1e105f62048773dc6dbe8f8",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b8d1505c7dd75a4accd731f30873d7acf0b83fc7",
+                "reference": "b8d1505c7dd75a4accd731f30873d7acf0b83fc7",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1398,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-15 13:16:49"
+            "time": "2016-06-15 13:31:21"
         },
         {
             "name": "orchestra/html",
