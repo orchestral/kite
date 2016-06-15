@@ -18,6 +18,12 @@ if [[ -d ../foundation ]]; then
     cp -Rf ./resources/views/packages/orchestra/foundation/* ../foundation/resources/views/
     cp -Rf ./bower.json ../foundation/bower.json
     cp -Rf ./gulpfile.js ../foundation/gulpfile.js
+
+    if [[ -d ../foundation/node_modules ]]; then
+        cd ../foundation
+        npm run-script build
+        cd $DIR
+    fi
 fi
 
 
