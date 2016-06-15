@@ -1323,12 +1323,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "ee289d2ad6e3d3d62d529100651d465920352302"
+                "reference": "c890cb6aded271a508cd46f4bdc3d413686acb5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/ee289d2ad6e3d3d62d529100651d465920352302",
-                "reference": "ee289d2ad6e3d3d62d529100651d465920352302",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/c890cb6aded271a508cd46f4bdc3d413686acb5e",
+                "reference": "c890cb6aded271a508cd46f4bdc3d413686acb5e",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1398,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-15 10:34:26"
+            "time": "2016-06-15 12:22:51"
         },
         {
             "name": "orchestra/html",
