@@ -1,0 +1,11 @@
+{
+  "js": {
+    "production": false,
+    "browserify": {
+      "options": {
+        "noBundleExternal": true,
+        "noparse": "FILE"
+      }
+    }
+  }
+}
