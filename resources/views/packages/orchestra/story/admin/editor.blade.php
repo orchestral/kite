@@ -42,7 +42,6 @@
 
 @stop
 
-
 @push('orchestra.footer')
 <script>
   var app = new App({

@@ -29,4 +29,8 @@ cd ../kite
     # control
     rm -Rf ../control/resources/views/*
     cp -Rf ./resources/views/packages/orchestra/control/* ../control/resources/views/
+
+    # story
+    rm -Rf ../story/resources/views/*
+    cp -Rf ./resources/views/packages/orchestra/story/* ../story/resources/views/
 # fi
