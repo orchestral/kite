@@ -1,18 +1,14 @@
-BRANCH=3.3;
+#!/bin/zsh
+BRANCH=3.3
+DIR=`pwd`
 
-cd ../foundation
-git checkout $BRANCH;
+if [[ -d ../foundation ]]; then
+    echo '>>> Sync Foundation'
 
-cd ../installer
-git checkout $BRANCH;
+    cd ../foundation
+    git checkout $BRANCH
+    cd $DIR
 
-cd ../control
-git checkout $BRANCH;
-
-cd ../kite
-
-# if [[ -d ../kite ]]; then
-    # foundation
     rm -Rf ../foundation/resources/assets/*
     rm -Rf ../foundation/resources/js/*
     rm -Rf ../foundation/resources/views/*
@@ -21,16 +17,38 @@ cd ../kite
     cp -Rf ./resources/views/packages/orchestra/foundation/* ../foundation/resources/views/
     cp -Rf ./bower.json ../foundation/bower.json
     cp -Rf ./gulpfile.js ../foundation/gulpfile.js
+fi
 
-    # installer
+
+if [[ -d ../installer ]]; then
+    echo '>>> Sync Installer'
+
+    cd ../installer
+    git checkout $BRANCH
+    cd $DIR
+
     rm -Rf ../installer/resources/views/*
     cp -Rf ./resources/views/packages/orchestra/installer/* ../installer/resources/views/
+fi
 
-    # control
+if [[ -d ../control ]]; then
+    echo '>>> Sync Control'
+
+    cd ../control
+    git checkout $BRANCH
+    cd $DIR
+
     rm -Rf ../control/resources/views/*
     cp -Rf ./resources/views/packages/orchestra/control/* ../control/resources/views/
+fi
 
-    # story
+if [[ -d ../story ]]; then
+    echo '>>> Sync Story'
+
+    cd ../story
+    git checkout $BRANCH
+    cd $DIR
+
     rm -Rf ../story/resources/views/*
     cp -Rf ./resources/views/packages/orchestra/story/* ../story/resources/views/
-# fi
+fi
