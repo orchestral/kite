@@ -69,7 +69,10 @@
     },
 
     ready() {
-      if (this.value >= 100000) {
+      if (this.value >= 1000000) {
+        this.value = Math.round(this.value / 1000000)
+        this.suffix = 'M'
+      } else if (this.value >= 100000) {
         this.value = Math.round(this.value / 100000)
         this.suffix = 'K'
       }
