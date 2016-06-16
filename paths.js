@@ -9,6 +9,7 @@ module.exports = {
     css: './resources/assets/css',
     js: './resources/assets/js',
     less: './resources/assets/less',
+    img: './resources/assets/img',
     vendor: './resources/assets/vendor'
   },
   js: './resources/js',

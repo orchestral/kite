@@ -2013,12 +2013,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "9d5a2b780d98893c46e89154c0df4021bbc06bb4"
+                "reference": "671b48f830d06c8b1780848f246f0f55e68f4a16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/9d5a2b780d98893c46e89154c0df4021bbc06bb4",
-                "reference": "9d5a2b780d98893c46e89154c0df4021bbc06bb4",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/671b48f830d06c8b1780848f246f0f55e68f4a16",
+                "reference": "671b48f830d06c8b1780848f246f0f55e68f4a16",
                 "shasum": ""
             },
             "require": {
@@ -2065,7 +2065,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-16 00:25:56"
+            "time": "2016-06-16 03:10:31"
         },
         {
             "name": "orchestra/support",

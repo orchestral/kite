@@ -17,5 +17,5 @@ elixir.config.sourcemaps = false
 
 elixir(function(mix) {
   mix.copy(dir.html+'/assets/less/components', dir.build.less+'/kite')
-    .copy(dir.html+'/assets/img', dir.asset.img)
+    .copy(dir.html+'/assets/img/close.svg', dir.build.img)
 });
