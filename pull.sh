@@ -12,7 +12,9 @@ if [[ -d ../foundation ]]; then
 
     rm -Rf ./resources/assets/*
     rm -Rf ./resources/js/*
+    rm -Rf ./resources/views/packages/orchestra/foundation/*
 
     cp -Rf ../foundation/resources/assets/* ./resources/assets/
     cp -Rf ../foundation/resources/js/* ./resources/js/
+    cp -Rf ../foundation/resources/views/* ./resources/views/packages/orchestra/foundation/
 fi
