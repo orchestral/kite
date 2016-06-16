@@ -16,7 +16,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        app('orchestra.widget')->make('dash.orchestra')->add('foo')
+            ->title('Users')->value(1000000)->color('pink')->icon('user');
     }
 
     /**

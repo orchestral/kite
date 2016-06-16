@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "8e0f6d093d0ef77704412b19e5adbd2db8470c6e"
+                "reference": "3de731d16977d957f25156d4358269e9f2db34cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8e0f6d093d0ef77704412b19e5adbd2db8470c6e",
-                "reference": "8e0f6d093d0ef77704412b19e5adbd2db8470c6e",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/3de731d16977d957f25156d4358269e9f2db34cd",
+                "reference": "3de731d16977d957f25156d4358269e9f2db34cd",
                 "shasum": ""
             },
             "require": {
@@ -1409,7 +1409,7 @@
                 "orchestra/support": "~3.3.0",
                 "orchestra/translation": "~3.3.0",
                 "orchestra/view": "~3.3.0",
-                "orchestra/widget": "~3.3.1",
+                "orchestra/widget": "~3.3.2",
                 "php": ">=5.6.4",
                 "predis/predis": "~1.0"
             },
@@ -1458,7 +1458,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-16 03:55:56"
+            "time": "2016-06-16 10:23:53"
         },
         {
             "name": "orchestra/html",
@@ -2263,16 +2263,16 @@
         },
         {
             "name": "orchestra/widget",
-            "version": "v3.3.1",
+            "version": "3.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "9937d2bafe860077975127e2b0a7813e38a7d817"
+                "reference": "4e21cebb87b5574e1e9029558c312890577bc821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/9937d2bafe860077975127e2b0a7813e38a7d817",
-                "reference": "9937d2bafe860077975127e2b0a7813e38a7d817",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/4e21cebb87b5574e1e9029558c312890577bc821",
+                "reference": "4e21cebb87b5574e1e9029558c312890577bc821",
                 "shasum": ""
             },
             "require": {
@@ -2317,7 +2317,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2016-06-12 16:15:28"
+            "time": "2016-06-16 09:29:39"
         },
         {
             "name": "paragonie/random_compat",
@@ -4886,16 +4886,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.4.5",
+            "version": "5.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "744a50838ef373be00fb658ce9544905cf587c17"
+                "reference": "2f1fc94b77ea6418bd6a06c64a1dac0645fbce59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/744a50838ef373be00fb658ce9544905cf587c17",
-                "reference": "744a50838ef373be00fb658ce9544905cf587c17",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2f1fc94b77ea6418bd6a06c64a1dac0645fbce59",
+                "reference": "2f1fc94b77ea6418bd6a06c64a1dac0645fbce59",
                 "shasum": ""
             },
             "require": {
@@ -4960,7 +4960,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-06-15 07:20:05"
+            "time": "2016-06-16 06:01:15"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
