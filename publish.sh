@@ -21,6 +21,7 @@ if [[ -d ../foundation ]]; then
 
     if [[ -d ../foundation/node_modules ]]; then
         cd ../foundation
+        bower update
         npm run-script build
         cd $DIR
     fi
