@@ -1149,12 +1149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/contracts.git",
-                "reference": "1dc2963317ea0772573a18fbdb3a6f3c2638761e"
+                "reference": "199f425101a565f324454d6adbdc082c07cd9f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/contracts/zipball/1dc2963317ea0772573a18fbdb3a6f3c2638761e",
-                "reference": "1dc2963317ea0772573a18fbdb3a6f3c2638761e",
+                "url": "https://api.github.com/repos/orchestral/contracts/zipball/199f425101a565f324454d6adbdc082c07cd9f96",
+                "reference": "199f425101a565f324454d6adbdc082c07cd9f96",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-05-29 23:40:17"
+            "time": "2016-06-21 11:42:42"
         },
         {
             "name": "orchestra/control",
@@ -1466,12 +1466,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "6c7603b5967d1e15f584dc8d779f11eecb803de9"
+                "reference": "79d09fbc5115f3da7434bccdb6b1b9bebd43ba27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/6c7603b5967d1e15f584dc8d779f11eecb803de9",
-                "reference": "6c7603b5967d1e15f584dc8d779f11eecb803de9",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/79d09fbc5115f3da7434bccdb6b1b9bebd43ba27",
+                "reference": "79d09fbc5115f3da7434bccdb6b1b9bebd43ba27",
                 "shasum": ""
             },
             "require": {
@@ -1521,7 +1521,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2016-06-21 10:34:47"
+            "time": "2016-06-21 11:23:52"
         },
         {
             "name": "orchestra/installer",

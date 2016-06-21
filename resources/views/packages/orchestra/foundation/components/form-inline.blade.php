@@ -1,4 +1,4 @@
-{{ Form::open(array_merge($grid->attributes())) }}
+{{ Form::open($grid->attributes()) }}
 
 @if($token)
 {{ csrf_field() }}
