@@ -44,10 +44,13 @@ elixir(function(mix) {
   mix.scripts([
     'jquery/jquery.min.js',
     'underscore/underscore-min.js',
+    'moment/min/moment.min.js',
     'javie/dist/javie.min.js',
     'bootstrap/dist/js/bootstrap.min.js',
     'select2/select2.min.js',
     'mousetrap/mousetrap.min.js',
+    'clipboard/dist/clipboard.min.js',
+    'Chart.js/dist/Chart.bundle.min.js',
     dir.build.vendor+'/jquery.ui/jquery.ui.js',
     dir.build.vendor+'/delta/js/jquery-ui.toggleSwitch.js',
     'perfect-scrollbar/js/perfect-scrollbar.jquery.min.js'
