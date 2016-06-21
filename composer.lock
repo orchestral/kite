@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "15eb499025c34e8cec5f761ea1dc393cff2cab06"
+                "reference": "f7526b25a9f59aa75a4f13fc9b05f649c7737eb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/15eb499025c34e8cec5f761ea1dc393cff2cab06",
-                "reference": "15eb499025c34e8cec5f761ea1dc393cff2cab06",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/f7526b25a9f59aa75a4f13fc9b05f649c7737eb7",
+                "reference": "f7526b25a9f59aa75a4f13fc9b05f649c7737eb7",
                 "shasum": ""
             },
             "require": {
@@ -1398,7 +1398,7 @@
                 "orchestra/auth": "~3.3.0",
                 "orchestra/contracts": "~3.3.0",
                 "orchestra/extension": "~3.3.0",
-                "orchestra/html": "~3.3.0",
+                "orchestra/html": "~3.3.1",
                 "orchestra/kernel": "~3.3.0",
                 "orchestra/memory": "~3.3.0",
                 "orchestra/messages": "~3.3.0",
@@ -1458,20 +1458,20 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-18 00:36:13"
+            "time": "2016-06-21 09:39:02"
         },
         {
             "name": "orchestra/html",
-            "version": "v3.3.0",
+            "version": "3.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "2cef196eab043d3883bdd9620477147c490557f9"
+                "reference": "6c7603b5967d1e15f584dc8d779f11eecb803de9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/2cef196eab043d3883bdd9620477147c490557f9",
-                "reference": "2cef196eab043d3883bdd9620477147c490557f9",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/6c7603b5967d1e15f584dc8d779f11eecb803de9",
+                "reference": "6c7603b5967d1e15f584dc8d779f11eecb803de9",
                 "shasum": ""
             },
             "require": {
@@ -1521,7 +1521,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2016-06-14 22:00:58"
+            "time": "2016-06-21 10:34:47"
         },
         {
             "name": "orchestra/installer",
