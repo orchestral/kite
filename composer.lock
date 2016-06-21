@@ -451,12 +451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3f0780a77600bf383b876174558503c701e05203"
+                "reference": "c82a44220b05faebd6a90e56ac4aa0a4c619de2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3f0780a77600bf383b876174558503c701e05203",
-                "reference": "3f0780a77600bf383b876174558503c701e05203",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c82a44220b05faebd6a90e56ac4aa0a4c619de2b",
+                "reference": "c82a44220b05faebd6a90e56ac4aa0a4c619de2b",
                 "shasum": ""
             },
             "require": {
@@ -571,7 +571,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-06-17 19:26:16"
+            "time": "2016-06-20 17:52:48"
         },
         {
             "name": "laravie/html",
@@ -1317,16 +1317,16 @@
         },
         {
             "name": "orchestra/facile",
-            "version": "v3.3.0",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "cd00e73a175621702786fb45bbefeea1d705e377"
+                "reference": "ec001e071ef32194d16f6dd8e15bac65e76907bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/cd00e73a175621702786fb45bbefeea1d705e377",
-                "reference": "cd00e73a175621702786fb45bbefeea1d705e377",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/ec001e071ef32194d16f6dd8e15bac65e76907bf",
+                "reference": "ec001e071ef32194d16f6dd8e15bac65e76907bf",
                 "shasum": ""
             },
             "require": {
@@ -1375,7 +1375,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-14 21:16:58"
+            "time": "2016-06-20 05:51:39"
         },
         {
             "name": "orchestra/foundation",
@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "d26ab8499ffcfb5b47b4ed66e3e8ba293eb575ce"
+                "reference": "15eb499025c34e8cec5f761ea1dc393cff2cab06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/d26ab8499ffcfb5b47b4ed66e3e8ba293eb575ce",
-                "reference": "d26ab8499ffcfb5b47b4ed66e3e8ba293eb575ce",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/15eb499025c34e8cec5f761ea1dc393cff2cab06",
+                "reference": "15eb499025c34e8cec5f761ea1dc393cff2cab06",
                 "shasum": ""
             },
             "require": {
@@ -1458,7 +1458,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-17 23:02:32"
+            "time": "2016-06-18 00:36:13"
         },
         {
             "name": "orchestra/html",
@@ -1774,16 +1774,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v3.3.0",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "3b8700c1a0d7811c9e7f20619796af7c6ee8a207"
+                "reference": "33dd46027a1fe5d8c16148fcf5875c8113191132"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/3b8700c1a0d7811c9e7f20619796af7c6ee8a207",
-                "reference": "3b8700c1a0d7811c9e7f20619796af7c6ee8a207",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/33dd46027a1fe5d8c16148fcf5875c8113191132",
+                "reference": "33dd46027a1fe5d8c16148fcf5875c8113191132",
                 "shasum": ""
             },
             "require": {
@@ -1827,7 +1827,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-10 23:20:49"
+            "time": "2016-06-21 00:25:16"
         },
         {
             "name": "orchestra/notifier",
