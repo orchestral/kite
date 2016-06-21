@@ -40,5 +40,5 @@ elixir(function(mix) {
 
   mix.scripts([
     'vendor.js'
-  ], dir.asset.js+'/vendor.js', dir.vendor)
+  ], dir.asset.js+'/vendor.js', dir.build.vendor)
 });
