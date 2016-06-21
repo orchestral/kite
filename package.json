@@ -12,7 +12,8 @@
   "private": true,
   "scripts": {
     "build": "NODE_ENV=production gulp --production",
-    "kite": "gulp --gulpfile=gulpfile.kite.js",
+    "vendor": "NODE_ENV=production gulp --gulpfile=gulpfile.vendor.js --production",
+    "kite": "NODE_ENV=production gulp --gulpfile=gulpfile.kite.js --production",
     "dev": "gulp watch"
   }
 }
