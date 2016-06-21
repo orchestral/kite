@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6ace90fe4d50e35c4a9268cf6f5ba289",
-    "content-hash": "e2b72e77786eedb093ac714725f9bbd9",
+    "hash": "cb644d1659c30fc2041fa74b94a95c83",
+    "content-hash": "ce14578137bff95d3d39eaae32677d92",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "9fa8e6ef3030f10f92679ecb2ccfa529db5d3d1a"
+                "reference": "22c858d0ea766e92e007459fc1c8df781f436b3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/9fa8e6ef3030f10f92679ecb2ccfa529db5d3d1a",
-                "reference": "9fa8e6ef3030f10f92679ecb2ccfa529db5d3d1a",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/22c858d0ea766e92e007459fc1c8df781f436b3d",
+                "reference": "22c858d0ea766e92e007459fc1c8df781f436b3d",
                 "shasum": ""
             },
             "require": {
@@ -1458,7 +1458,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-21 14:02:46"
+            "time": "2016-06-21 15:27:31"
         },
         {
             "name": "orchestra/html",
@@ -4261,58 +4261,6 @@
                 "object graph"
             ],
             "time": "2015-11-20 12:04:31"
-        },
-        {
-            "name": "orchestra/studio",
-            "version": "3.3.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/studio.git",
-                "reference": "9ea84ea27e1d057faaa45f8a25e0a9057a3ae999"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/studio/zipball/9ea84ea27e1d057faaa45f8a25e0a9057a3ae999",
-                "reference": "9ea84ea27e1d057faaa45f8a25e0a9057a3ae999",
-                "shasum": ""
-            },
-            "require": {
-                "orchestra/support": "~3.3.0",
-                "php": ">=5.6.0"
-            },
-            "require-dev": {
-                "illuminate/console": "~5.3.0",
-                "illuminate/filesystem": "~5.3.0",
-                "league/flysystem": "~1.0",
-                "mockery/mockery": "^0.9.4"
-            },
-            "suggest": {
-                "wikimedia/composer-merge-plugin": "Add workbench support for Orchestra Platform (~1.1)."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Orchestra\\Studio\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                }
-            ],
-            "description": "Code Generator for Orchestra Platform",
-            "time": "2016-05-26 00:30:45"
         },
         {
             "name": "orchestra/testbench",

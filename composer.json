@@ -14,7 +14,6 @@
         "orchestra/story": "~3.3"
     },
     "require-dev": {
-        "orchestra/studio": "~3.3",
         "orchestra/testing": "~3.3",
         "laravel/homestead": "~3.0"
     },
