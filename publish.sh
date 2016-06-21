@@ -60,3 +60,14 @@ if [[ -d ../story ]]; then
     rm -Rf ../story/resources/views/*
     cp -Rf ./resources/views/packages/orchestra/story/* ../story/resources/views/
 fi
+
+if [[ -d ../studio ]]; then
+    echo '>>> Sync Studio'
+
+    cd ../studio
+    git checkout $BRANCH
+    cd $DIR
+
+    cp -Rf ./bower.json ../studio/stubs/bower.json
+    cp -Rf ./gulpfile.js ../studio/stubs/gulpfile.js
+fi
