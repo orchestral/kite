@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\User;
 use Illuminate\Support\ServiceProvider;
 use Orchestra\Extension\Traits\DomainAware;
 
@@ -16,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        orchestra()->widget('dash')->add('users')->value(2000)->title('Users');
+        orchestra()->widget('dash')->add('users')->value(User::count())->icon('user')->title('Users');
     }
 
     /**
