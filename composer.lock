@@ -1585,12 +1585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "d7c63bf783b980e8ef615af27456a9198ac94354"
+                "reference": "c13b100e373631aec865f9f76a1d963d5923f27e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/d7c63bf783b980e8ef615af27456a9198ac94354",
-                "reference": "d7c63bf783b980e8ef615af27456a9198ac94354",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/c13b100e373631aec865f9f76a1d963d5923f27e",
+                "reference": "c13b100e373631aec865f9f76a1d963d5923f27e",
                 "shasum": ""
             },
             "require": {
@@ -1642,7 +1642,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-22 07:43:43"
+            "time": "2016-06-22 07:59:37"
         },
         {
             "name": "orchestra/memory",
