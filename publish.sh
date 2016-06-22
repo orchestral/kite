@@ -19,10 +19,12 @@ if [[ -d ../foundation ]]; then
     cp -Rf ./.bowerrc ../foundation/.bowerrc
     cp -Rf ./bower.json ../foundation/bower.json
     cp -Rf ./gulpfile.js ../foundation/gulpfile.js
+    cp -Rf ./gulpfile.vendor.js ../foundation/gulpfile.vendor.js
 
     if [[ -d ../foundation/node_modules ]]; then
         cd ../foundation
         bower update
+        npm run-script vendor
         npm run-script build
         cd $DIR
     fi

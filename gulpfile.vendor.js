@@ -16,6 +16,12 @@ dir = require('./paths.js')
 elixir.config.sourcemaps = false
 
 elixir(function(mix) {
+  mix.copy(dir.vendor+'/font-awesome/fonts', dir.build.font)
+    .copy(dir.vendor+'/select2/select2-spinner.gif', dir.build.css)
+    .copy(dir.vendor+'/select2/select2.png', dir.build.css)
+    .copy(dir.vendor+'/select2/select2x2.png', dir.build.css)
+    .copy(dir.vendor+'/html5shiv/dist/html5shiv.min.js', dir.build.js+'/html5shiv.js')
+
   mix.styles([
     'select2/select2.css',
     'select2/select2-bootstrap.css',
