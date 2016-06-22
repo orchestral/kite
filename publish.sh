@@ -16,6 +16,7 @@ if [[ -d ../foundation ]]; then
     cp -Rf ./resources/assets/* ../foundation/resources/assets/
     cp -Rf ./resources/js/* ../foundation/resources/js/
     cp -Rf ./resources/views/packages/orchestra/foundation/* ../foundation/resources/views/
+    cp -Rf ./.bowerrc ../foundation/.bowerrc
     cp -Rf ./bower.json ../foundation/bower.json
     cp -Rf ./gulpfile.js ../foundation/gulpfile.js
 
@@ -68,6 +69,7 @@ if [[ -d ../studio ]]; then
     git checkout $BRANCH
     cd $DIR
 
+    cp -Rf ./.bowerrc ../studio/stubs/.bowerrc
     cp -Rf ./bower.json ../studio/stubs/bower.json
     cp -Rf ./gulpfile.js ../studio/stubs/gulpfile.js
 fi
