@@ -17,7 +17,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         orchestra()->widget('dash')->add('users')->value(2000)->title('Users');
-        orchestra()->widget('pane')->add('users')->title('Users')->description('user count!')->content('We have <strong>2000</strong> users.');
     }
 
     /**
