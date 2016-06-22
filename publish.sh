@@ -25,6 +25,8 @@ if [[ -d ../foundation ]]; then
         cd ../foundation
         bower update
         npm run-script vendor
+        chmod 644 resources/assets/vendor/vendor.css
+        chmod 644 resources/assets/vendor/vendor.js
         npm run-script build
         cd $DIR
     fi
