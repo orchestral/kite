@@ -17,7 +17,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        orchestra()->widget('dash')->add('users')->value(User::count())->icon('user')->title('Users');
+        $orchestra = orchestra();
+
+        $orchestra->when('orchestra::/', function () use ($orchestra) {
+            $orchestra->widget('dash')->add('users')->value(User::count())->icon('user')->title('Users');
+        });
     }
 
     /**

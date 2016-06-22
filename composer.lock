@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "9cfe52b4ff32cb639d5b12d46c39ea9ed8744985"
+                "reference": "f3ae74e7baf2a3c373f515ef7e1c2b78c0a7efc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/9cfe52b4ff32cb639d5b12d46c39ea9ed8744985",
-                "reference": "9cfe52b4ff32cb639d5b12d46c39ea9ed8744985",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/f3ae74e7baf2a3c373f515ef7e1c2b78c0a7efc9",
+                "reference": "f3ae74e7baf2a3c373f515ef7e1c2b78c0a7efc9",
                 "shasum": ""
             },
             "require": {
@@ -1459,7 +1459,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-22 07:45:16"
+            "time": "2016-06-22 08:57:35"
         },
         {
             "name": "orchestra/html",
@@ -2268,12 +2268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "4e21cebb87b5574e1e9029558c312890577bc821"
+                "reference": "aad59b09ef7807ff66141e0ca5c158b7468ecc4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/4e21cebb87b5574e1e9029558c312890577bc821",
-                "reference": "4e21cebb87b5574e1e9029558c312890577bc821",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/aad59b09ef7807ff66141e0ca5c158b7468ecc4c",
+                "reference": "aad59b09ef7807ff66141e0ca5c158b7468ecc4c",
                 "shasum": ""
             },
             "require": {
@@ -2318,7 +2318,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2016-06-16 09:29:39"
+            "time": "2016-06-22 13:12:49"
         },
         {
             "name": "paragonie/random_compat",
