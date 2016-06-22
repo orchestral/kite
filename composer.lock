@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "22c858d0ea766e92e007459fc1c8df781f436b3d"
+                "reference": "9cfe52b4ff32cb639d5b12d46c39ea9ed8744985"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/22c858d0ea766e92e007459fc1c8df781f436b3d",
-                "reference": "22c858d0ea766e92e007459fc1c8df781f436b3d",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/9cfe52b4ff32cb639d5b12d46c39ea9ed8744985",
+                "reference": "9cfe52b4ff32cb639d5b12d46c39ea9ed8744985",
                 "shasum": ""
             },
             "require": {
@@ -1399,7 +1399,7 @@
                 "orchestra/contracts": "~3.3.0",
                 "orchestra/extension": "~3.3.0",
                 "orchestra/html": "~3.3.1",
-                "orchestra/kernel": "~3.3.0",
+                "orchestra/kernel": "~3.3.1",
                 "orchestra/memory": "~3.3.0",
                 "orchestra/messages": "~3.3.0",
                 "orchestra/model": "~3.3.0",
@@ -1418,6 +1418,7 @@
                 "phpunit/phpunit": "~4.8|~5.0"
             },
             "suggest": {
+                "orchestra/avatar": "Add gravatar support for Orchestra Platform (~3.3).",
                 "orchestra/ftp-updater": "Allow Extension with asset to be updated/uploaded environment without SSH support (~3.3).",
                 "orchestra/installer": "Allow Orchestra Platform to be installed in new application (~3.3).",
                 "orchestra/studio": "Allow additional code generator for Orchestra Platform (~3.3).",
@@ -1458,7 +1459,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-21 15:27:31"
+            "time": "2016-06-22 07:45:16"
         },
         {
             "name": "orchestra/html",
@@ -1580,16 +1581,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.3.0",
+            "version": "3.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "36998324c4255ae3ddf1de156398f2e9863399f7"
+                "reference": "d7c63bf783b980e8ef615af27456a9198ac94354"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/36998324c4255ae3ddf1de156398f2e9863399f7",
-                "reference": "36998324c4255ae3ddf1de156398f2e9863399f7",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/d7c63bf783b980e8ef615af27456a9198ac94354",
+                "reference": "d7c63bf783b980e8ef615af27456a9198ac94354",
                 "shasum": ""
             },
             "require": {
@@ -1641,7 +1642,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-14 22:25:18"
+            "time": "2016-06-22 07:43:43"
         },
         {
             "name": "orchestra/memory",
@@ -4268,12 +4269,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "3cae2ff05e7a76eff59455b671ceb9e2f4de953d"
+                "reference": "6bc6b386ff4c08af61eb18476784bd962e28d93f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/3cae2ff05e7a76eff59455b671ceb9e2f4de953d",
-                "reference": "3cae2ff05e7a76eff59455b671ceb9e2f4de953d",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/6bc6b386ff4c08af61eb18476784bd962e28d93f",
+                "reference": "6bc6b386ff4c08af61eb18476784bd962e28d93f",
                 "shasum": ""
             },
             "require": {
@@ -4323,7 +4324,7 @@
                 "orchestral",
                 "testing"
             ],
-            "time": "2016-06-01 04:36:49"
+            "time": "2016-06-22 01:21:33"
         },
         {
             "name": "orchestra/testing",
