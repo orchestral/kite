@@ -451,12 +451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e88a197603e1eaf857522b29ecca82881e966723"
+                "reference": "32ad242ab064e28fc83d10858dd4667ce9b785ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e88a197603e1eaf857522b29ecca82881e966723",
-                "reference": "e88a197603e1eaf857522b29ecca82881e966723",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/32ad242ab064e28fc83d10858dd4667ce9b785ad",
+                "reference": "32ad242ab064e28fc83d10858dd4667ce9b785ad",
                 "shasum": ""
             },
             "require": {
@@ -571,7 +571,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-06-21 13:30:41"
+            "time": "2016-06-22 08:22:56"
         },
         {
             "name": "laravie/html",
@@ -2014,12 +2014,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "1fb15a79b1b73c86ba482ec9ca0259873bea9c3b"
+                "reference": "de901ea4bd52ecb8fc932522d7f39c7c8d1119c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/1fb15a79b1b73c86ba482ec9ca0259873bea9c3b",
-                "reference": "1fb15a79b1b73c86ba482ec9ca0259873bea9c3b",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/de901ea4bd52ecb8fc932522d7f39c7c8d1119c8",
+                "reference": "de901ea4bd52ecb8fc932522d7f39c7c8d1119c8",
                 "shasum": ""
             },
             "require": {
@@ -2066,7 +2066,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-16 03:54:39"
+            "time": "2016-06-22 08:21:15"
         },
         {
             "name": "orchestra/support",
