@@ -3,6 +3,10 @@
 BRANCH=3.3
 DIR=`pwd`
 
+if [[ -d ./resources/assets/sass ]]; then
+    rm -rf resources/assets/sass
+fi
+
 if [[ -d ../foundation ]]; then
     echo '>>> Sync Foundation'
 
@@ -23,6 +27,7 @@ if [[ -d ../foundation ]]; then
 
     if [[ -d ../foundation/node_modules ]]; then
         cd ../foundation
+        rm -rf resources/assets/sass
         bower update
         npm run-script vendor
         chmod 644 resources/assets/vendor/vendor.css
