@@ -3,6 +3,8 @@
 BRANCH=3.3
 DIR=`pwd`
 
+sh chmod.sh
+
 if [[ -d ./resources/assets/sass ]]; then
     rm -rf resources/assets/sass
 fi
