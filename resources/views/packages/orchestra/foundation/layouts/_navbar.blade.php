@@ -13,7 +13,7 @@
           </div>
 
           @section('navbar-right')
-          <a href="{{ handles('orchestra::logout') }}#?hello=word#for=bar"
+          <a href="{{ handles('orchestra::logout') }}"
             data-method="DELETE"
             class="btn btn-primary navbar-btn navbar-right v-cloak--hidden"
             v-if="user"
