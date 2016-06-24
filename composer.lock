@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "1893bbf823051cf91c7d49f91093d1bd482d3544"
+                "reference": "b8a2e13d9a599d821b10082f762e064cc868a41d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/1893bbf823051cf91c7d49f91093d1bd482d3544",
-                "reference": "1893bbf823051cf91c7d49f91093d1bd482d3544",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b8a2e13d9a599d821b10082f762e064cc868a41d",
+                "reference": "b8a2e13d9a599d821b10082f762e064cc868a41d",
                 "shasum": ""
             },
             "require": {
@@ -1459,7 +1459,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-24 13:08:03"
+            "time": "2016-06-24 13:47:49"
         },
         {
             "name": "orchestra/html",
@@ -2016,12 +2016,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "db36e05160bcf1d630e7a762a5ebb3082f0e5a55"
+                "reference": "f4a589332ccd8c6c627e0834df0311e49f4a44fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/db36e05160bcf1d630e7a762a5ebb3082f0e5a55",
-                "reference": "db36e05160bcf1d630e7a762a5ebb3082f0e5a55",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/f4a589332ccd8c6c627e0834df0311e49f4a44fa",
+                "reference": "f4a589332ccd8c6c627e0834df0311e49f4a44fa",
                 "shasum": ""
             },
             "require": {
@@ -2068,7 +2068,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-24 10:10:48"
+            "time": "2016-06-24 13:49:05"
         },
         {
             "name": "orchestra/support",
