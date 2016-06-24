@@ -496,12 +496,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "9cf07598f53756549104184de8fb98f7fd3b2bf1"
+                "reference": "53e13663f56df7f699806e91d597d02d6bc10759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/9cf07598f53756549104184de8fb98f7fd3b2bf1",
-                "reference": "9cf07598f53756549104184de8fb98f7fd3b2bf1",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/53e13663f56df7f699806e91d597d02d6bc10759",
+                "reference": "53e13663f56df7f699806e91d597d02d6bc10759",
                 "shasum": ""
             },
             "require": {
@@ -616,7 +616,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-06-23 08:09:23"
+            "time": "2016-06-24 15:30:00"
         },
         {
             "name": "laravie/html",
@@ -1428,12 +1428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "142a81f96f83ac19e9c81211fdb6e960192826c7"
+                "reference": "755246e18e9eb44a9eb4ea1cc509e3cd65e7be80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/142a81f96f83ac19e9c81211fdb6e960192826c7",
-                "reference": "142a81f96f83ac19e9c81211fdb6e960192826c7",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/755246e18e9eb44a9eb4ea1cc509e3cd65e7be80",
+                "reference": "755246e18e9eb44a9eb4ea1cc509e3cd65e7be80",
                 "shasum": ""
             },
             "require": {
@@ -1504,7 +1504,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-24 13:58:37"
+            "time": "2016-06-24 15:58:15"
         },
         {
             "name": "orchestra/html",
@@ -1630,12 +1630,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "8987bea86e7f8e4937c375fd9f5e5b94e9c88dec"
+                "reference": "68566728ece1cb6a8c39fb330a935c1d7e2b2b9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/8987bea86e7f8e4937c375fd9f5e5b94e9c88dec",
-                "reference": "8987bea86e7f8e4937c375fd9f5e5b94e9c88dec",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/68566728ece1cb6a8c39fb330a935c1d7e2b2b9b",
+                "reference": "68566728ece1cb6a8c39fb330a935c1d7e2b2b9b",
                 "shasum": ""
             },
             "require": {
@@ -1689,7 +1689,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-24 14:23:37"
+            "time": "2016-06-24 15:58:25"
         },
         {
             "name": "orchestra/memory",
@@ -2315,12 +2315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "46f16d2b1a21eb10f40e0b750b9a924c167ff5cc"
+                "reference": "ed206cf2821fd7c9a0c37b878acba9e96b14a851"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/46f16d2b1a21eb10f40e0b750b9a924c167ff5cc",
-                "reference": "46f16d2b1a21eb10f40e0b750b9a924c167ff5cc",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/ed206cf2821fd7c9a0c37b878acba9e96b14a851",
+                "reference": "ed206cf2821fd7c9a0c37b878acba9e96b14a851",
                 "shasum": ""
             },
             "require": {
@@ -2365,7 +2365,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2016-06-22 23:21:48"
+            "time": "2016-06-24 15:27:01"
         },
         {
             "name": "paragonie/random_compat",
