@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b4d8fa9a92247f1d39502aeaab27774",
-    "content-hash": "cb77df025d2c6146672221c8faf1fb45",
+    "hash": "b0651f7e4af2b0eed47557bcf504f7b6",
+    "content-hash": "1a14dd26ac3baa94c0161b1ab54d49e9",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -299,6 +299,51 @@
                 "parser"
             ],
             "time": "2015-11-01 10:19:22"
+        },
+        {
+            "name": "itsgoingd/clockwork",
+            "version": "v1.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itsgoingd/clockwork.git",
+                "reference": "76488226d8fdeab29c1782a5a6c154403ad9cdcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/76488226d8fdeab29c1782a5a6c154403ad9cdcf",
+                "reference": "76488226d8fdeab29c1782a5a6c154403ad9cdcf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "psr/log": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Clockwork\\": "Clockwork/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "itsgoingd",
+                    "email": "itsgoingd@luzer.sk",
+                    "homepage": "http://twitter.com/itsgoingd"
+                }
+            ],
+            "description": "Server-side component of Clockwork, a Chrome extension for PHP development",
+            "homepage": "http://github.com/itsgoingd/clockwork",
+            "keywords": [
+                "debugging",
+                "laravel",
+                "logging",
+                "profiling"
+            ],
+            "time": "2016-06-18 18:17:25"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1383,12 +1428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "b8a2e13d9a599d821b10082f762e064cc868a41d"
+                "reference": "142a81f96f83ac19e9c81211fdb6e960192826c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b8a2e13d9a599d821b10082f762e064cc868a41d",
-                "reference": "b8a2e13d9a599d821b10082f762e064cc868a41d",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/142a81f96f83ac19e9c81211fdb6e960192826c7",
+                "reference": "142a81f96f83ac19e9c81211fdb6e960192826c7",
                 "shasum": ""
             },
             "require": {
@@ -1459,20 +1504,20 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-24 13:47:49"
+            "time": "2016-06-24 13:58:37"
         },
         {
             "name": "orchestra/html",
-            "version": "3.3.x-dev",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "5eeed82bb2c335c78d1ea1a34549c6b44f052149"
+                "reference": "7d2b37f63c1386aa406c69297dbd5dcf6f1c2ec5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/5eeed82bb2c335c78d1ea1a34549c6b44f052149",
-                "reference": "5eeed82bb2c335c78d1ea1a34549c6b44f052149",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/7d2b37f63c1386aa406c69297dbd5dcf6f1c2ec5",
+                "reference": "7d2b37f63c1386aa406c69297dbd5dcf6f1c2ec5",
                 "shasum": ""
             },
             "require": {
@@ -1522,7 +1567,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2016-06-24 06:19:44"
+            "time": "2016-06-24 14:49:27"
         },
         {
             "name": "orchestra/installer",
@@ -1585,12 +1630,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "c776a640679b0bdc971cc432489f4dc8822815ab"
+                "reference": "8987bea86e7f8e4937c375fd9f5e5b94e9c88dec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/c776a640679b0bdc971cc432489f4dc8822815ab",
-                "reference": "c776a640679b0bdc971cc432489f4dc8822815ab",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/8987bea86e7f8e4937c375fd9f5e5b94e9c88dec",
+                "reference": "8987bea86e7f8e4937c375fd9f5e5b94e9c88dec",
                 "shasum": ""
             },
             "require": {
@@ -1644,7 +1689,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-24 08:38:58"
+            "time": "2016-06-24 14:23:37"
         },
         {
             "name": "orchestra/memory",
@@ -1834,16 +1879,16 @@
         },
         {
             "name": "orchestra/notifier",
-            "version": "3.3.x-dev",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "bc4833046d2d132d4c85150f6a4912a2c11079be"
+                "reference": "33202b80fcc6d9ff400acc5dfa1ce69c92729f99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/bc4833046d2d132d4c85150f6a4912a2c11079be",
-                "reference": "bc4833046d2d132d4c85150f6a4912a2c11079be",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/33202b80fcc6d9ff400acc5dfa1ce69c92729f99",
+                "reference": "33202b80fcc6d9ff400acc5dfa1ce69c92729f99",
                 "shasum": ""
             },
             "require": {
@@ -1893,7 +1938,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-24 02:13:29"
+            "time": "2016-06-24 15:01:51"
         },
         {
             "name": "orchestra/optimize",
