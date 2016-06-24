@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "1c12709e323730015d5f35b3bc084ccfc7068be3"
+                "reference": "1893bbf823051cf91c7d49f91093d1bd482d3544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/1c12709e323730015d5f35b3bc084ccfc7068be3",
-                "reference": "1c12709e323730015d5f35b3bc084ccfc7068be3",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/1893bbf823051cf91c7d49f91093d1bd482d3544",
+                "reference": "1893bbf823051cf91c7d49f91093d1bd482d3544",
                 "shasum": ""
             },
             "require": {
@@ -1459,7 +1459,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-24 08:13:35"
+            "time": "2016-06-24 13:08:03"
         },
         {
             "name": "orchestra/html",
@@ -1585,12 +1585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "714d790d9275bfdf08c2d08cd0d43fb620f9293b"
+                "reference": "c776a640679b0bdc971cc432489f4dc8822815ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/714d790d9275bfdf08c2d08cd0d43fb620f9293b",
-                "reference": "714d790d9275bfdf08c2d08cd0d43fb620f9293b",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/c776a640679b0bdc971cc432489f4dc8822815ab",
+                "reference": "c776a640679b0bdc971cc432489f4dc8822815ab",
                 "shasum": ""
             },
             "require": {
@@ -1644,7 +1644,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-24 07:43:39"
+            "time": "2016-06-24 08:38:58"
         },
         {
             "name": "orchestra/memory",
@@ -2016,12 +2016,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "eb178f6eb5809496aa2f01b6ff50c7179c59e18a"
+                "reference": "db36e05160bcf1d630e7a762a5ebb3082f0e5a55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/eb178f6eb5809496aa2f01b6ff50c7179c59e18a",
-                "reference": "eb178f6eb5809496aa2f01b6ff50c7179c59e18a",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/db36e05160bcf1d630e7a762a5ebb3082f0e5a55",
+                "reference": "db36e05160bcf1d630e7a762a5ebb3082f0e5a55",
                 "shasum": ""
             },
             "require": {
@@ -2068,7 +2068,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-22 13:48:13"
+            "time": "2016-06-24 10:10:48"
         },
         {
             "name": "orchestra/support",
@@ -4334,12 +4334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testing.git",
-                "reference": "b0a43d6a44f01ac66baa097cf54c7ce6c5a084d1"
+                "reference": "1a18d3f96ef6ba8646fc6a4b871d530b6c23964c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testing/zipball/b0a43d6a44f01ac66baa097cf54c7ce6c5a084d1",
-                "reference": "b0a43d6a44f01ac66baa097cf54c7ce6c5a084d1",
+                "url": "https://api.github.com/repos/orchestral/testing/zipball/1a18d3f96ef6ba8646fc6a4b871d530b6c23964c",
+                "reference": "1a18d3f96ef6ba8646fc6a4b871d530b6c23964c",
                 "shasum": ""
             },
             "require": {
@@ -4381,7 +4381,7 @@
                 }
             ],
             "description": "Orchestra Platform Testing Helper",
-            "time": "2016-05-26 00:29:12"
+            "time": "2016-06-24 09:49:32"
         },
         {
             "name": "phpdocumentor/reflection-common",
