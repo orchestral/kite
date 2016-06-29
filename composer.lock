@@ -496,12 +496,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "53e13663f56df7f699806e91d597d02d6bc10759"
+                "reference": "95592b99b950ece7c2bfa5ad00449a5be822be28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/53e13663f56df7f699806e91d597d02d6bc10759",
-                "reference": "53e13663f56df7f699806e91d597d02d6bc10759",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/95592b99b950ece7c2bfa5ad00449a5be822be28",
+                "reference": "95592b99b950ece7c2bfa5ad00449a5be822be28",
                 "shasum": ""
             },
             "require": {
@@ -616,7 +616,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-06-24 15:30:00"
+            "time": "2016-06-28 17:50:39"
         },
         {
             "name": "laravie/html",
@@ -850,6 +850,55 @@
             "time": "2016-04-12 18:29:35"
         },
         {
+            "name": "mpociot/reauthenticate",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpociot/reauthenticate.git",
+                "reference": "4d705308562546a90e0ac2d7d0b47cab51bc4db5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpociot/reauthenticate/zipball/4d705308562546a90e0ac2d7d0b47cab51bc4db5",
+                "reference": "4d705308562546a90e0ac2d7d0b47cab51bc4db5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "orchestra/testbench": "~3.0",
+                "phpunit/phpunit": "4.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mpociot\\Reauthenticate": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "m.pociot@gmail.com"
+                }
+            ],
+            "description": "Reauthenticate users by letting them re-enter their passwords for specific parts of your app.",
+            "homepage": "http://github.com/mpociot/reauthenticate",
+            "keywords": [
+                "Authentication",
+                "password prompt",
+                "reauthentication",
+                "security"
+            ],
+            "time": "2015-11-11 09:38:57"
+        },
+        {
             "name": "mtdowling/cron-expression",
             "version": "v1.1.0",
             "source": {
@@ -1059,12 +1108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "c0392ffc2c4b889c70c3eadb122e2da76993df43"
+                "reference": "40c2c7995dee26ef908ff10c8531ebc678db9340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/c0392ffc2c4b889c70c3eadb122e2da76993df43",
-                "reference": "c0392ffc2c4b889c70c3eadb122e2da76993df43",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/40c2c7995dee26ef908ff10c8531ebc678db9340",
+                "reference": "40c2c7995dee26ef908ff10c8531ebc678db9340",
                 "shasum": ""
             },
             "require": {
@@ -1126,7 +1175,7 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2016-06-24 00:51:31"
+            "time": "2016-06-28 14:54:44"
         },
         {
             "name": "orchestra/avatar",
@@ -1428,24 +1477,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "755246e18e9eb44a9eb4ea1cc509e3cd65e7be80"
+                "reference": "483678e199d8468f238018d49e2cdc4f5e6a8015"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/755246e18e9eb44a9eb4ea1cc509e3cd65e7be80",
-                "reference": "755246e18e9eb44a9eb4ea1cc509e3cd65e7be80",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/483678e199d8468f238018d49e2cdc4f5e6a8015",
+                "reference": "483678e199d8468f238018d49e2cdc4f5e6a8015",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "~5.3.0",
                 "laravie/html": "~5.3.0",
+                "mpociot/reauthenticate": "~1.0",
                 "orchestra/asset": "~3.3.0",
                 "orchestra/auth": "~3.3.0",
                 "orchestra/contracts": "~3.3.0",
                 "orchestra/extension": "~3.3.0",
                 "orchestra/html": "~3.3.1",
                 "orchestra/kernel": "~3.3.1",
-                "orchestra/memory": "~3.3.0",
+                "orchestra/memory": "~3.3.1",
                 "orchestra/messages": "~3.3.0",
                 "orchestra/model": "~3.3.2",
                 "orchestra/notifier": "~3.3.1",
@@ -1504,7 +1554,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-06-24 15:58:15"
+            "time": "2016-06-29 02:42:27"
         },
         {
             "name": "orchestra/html",
@@ -1630,12 +1680,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "68566728ece1cb6a8c39fb330a935c1d7e2b2b9b"
+                "reference": "2ce06a1598848301814b2a3ccb07e4a48a6d7f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/68566728ece1cb6a8c39fb330a935c1d7e2b2b9b",
-                "reference": "68566728ece1cb6a8c39fb330a935c1d7e2b2b9b",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/2ce06a1598848301814b2a3ccb07e4a48a6d7f17",
+                "reference": "2ce06a1598848301814b2a3ccb07e4a48a6d7f17",
                 "shasum": ""
             },
             "require": {
@@ -1689,20 +1739,20 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-24 15:58:25"
+            "time": "2016-06-25 17:09:14"
         },
         {
             "name": "orchestra/memory",
-            "version": "v3.3.0",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "256358261d6a388212caa1869652d59ad19bdfc1"
+                "reference": "b0f358ba5ed89d398f58f8c2cecb6d99f593775f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/256358261d6a388212caa1869652d59ad19bdfc1",
-                "reference": "256358261d6a388212caa1869652d59ad19bdfc1",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/b0f358ba5ed89d398f58f8c2cecb6d99f593775f",
+                "reference": "b0f358ba5ed89d398f58f8c2cecb6d99f593775f",
                 "shasum": ""
             },
             "require": {
@@ -1753,7 +1803,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-11 12:28:15"
+            "time": "2016-06-25 12:52:39"
         },
         {
             "name": "orchestra/messages",
@@ -1826,12 +1876,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "6cde925f38f3e339876b9b79e3fbbab639aa527f"
+                "reference": "ace43641a813b83d639704721f8e04b8e7c89304"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/6cde925f38f3e339876b9b79e3fbbab639aa527f",
-                "reference": "6cde925f38f3e339876b9b79e3fbbab639aa527f",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/ace43641a813b83d639704721f8e04b8e7c89304",
+                "reference": "ace43641a813b83d639704721f8e04b8e7c89304",
                 "shasum": ""
             },
             "require": {
@@ -1875,7 +1925,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-24 00:40:56"
+            "time": "2016-06-24 23:35:54"
         },
         {
             "name": "orchestra/notifier",
@@ -2061,12 +2111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "f4a589332ccd8c6c627e0834df0311e49f4a44fa"
+                "reference": "d3736d0b61471aaadbbe6dbf521951ee21c1fce1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/f4a589332ccd8c6c627e0834df0311e49f4a44fa",
-                "reference": "f4a589332ccd8c6c627e0834df0311e49f4a44fa",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/d3736d0b61471aaadbbe6dbf521951ee21c1fce1",
+                "reference": "d3736d0b61471aaadbbe6dbf521951ee21c1fce1",
                 "shasum": ""
             },
             "require": {
@@ -2113,7 +2163,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-24 13:49:05"
+            "time": "2016-06-25 13:38:19"
         },
         {
             "name": "orchestra/support",
@@ -2311,16 +2361,16 @@
         },
         {
             "name": "orchestra/widget",
-            "version": "3.3.x-dev",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "ed206cf2821fd7c9a0c37b878acba9e96b14a851"
+                "reference": "7670c8a7b9acddc5068d1e52797bd1669baf367b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/ed206cf2821fd7c9a0c37b878acba9e96b14a851",
-                "reference": "ed206cf2821fd7c9a0c37b878acba9e96b14a851",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/7670c8a7b9acddc5068d1e52797bd1669baf367b",
+                "reference": "7670c8a7b9acddc5068d1e52797bd1669baf367b",
                 "shasum": ""
             },
             "require": {
@@ -2365,7 +2415,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2016-06-24 15:27:01"
+            "time": "2016-06-24 23:10:56"
         },
         {
             "name": "paragonie/random_compat",
@@ -4379,12 +4429,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testing.git",
-                "reference": "1a18d3f96ef6ba8646fc6a4b871d530b6c23964c"
+                "reference": "0bf66074462b8386de3b1b3e04b7ca3fe91d3ce4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testing/zipball/1a18d3f96ef6ba8646fc6a4b871d530b6c23964c",
-                "reference": "1a18d3f96ef6ba8646fc6a4b871d530b6c23964c",
+                "url": "https://api.github.com/repos/orchestral/testing/zipball/0bf66074462b8386de3b1b3e04b7ca3fe91d3ce4",
+                "reference": "0bf66074462b8386de3b1b3e04b7ca3fe91d3ce4",
                 "shasum": ""
             },
             "require": {
@@ -4426,7 +4476,7 @@
                 }
             ],
             "description": "Orchestra Platform Testing Helper",
-            "time": "2016-06-24 09:49:32"
+            "time": "2016-06-25 14:58:01"
         },
         {
             "name": "phpdocumentor/reflection-common",
