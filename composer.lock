@@ -496,12 +496,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "fa9f3220af499bb1bb6fc7dca03b1da7e0d60986"
+                "reference": "94b6ee827584e0e58330db38984cb88522809d0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/fa9f3220af499bb1bb6fc7dca03b1da7e0d60986",
-                "reference": "fa9f3220af499bb1bb6fc7dca03b1da7e0d60986",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/94b6ee827584e0e58330db38984cb88522809d0d",
+                "reference": "94b6ee827584e0e58330db38984cb88522809d0d",
                 "shasum": ""
             },
             "require": {
@@ -617,7 +617,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-07-11 20:44:27"
+            "time": "2016-07-13 04:08:47"
         },
         {
             "name": "laravie/html",
@@ -849,6 +849,54 @@
                 "psr-3"
             ],
             "time": "2016-07-02 14:02:10"
+        },
+        {
+            "name": "mpociot/reauthenticate",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpociot/reauthenticate.git",
+                "reference": "6c14d0dbd26266f1b51b2e207e77271404b7e843"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpociot/reauthenticate/zipball/6c14d0dbd26266f1b51b2e207e77271404b7e843",
+                "reference": "6c14d0dbd26266f1b51b2e207e77271404b7e843",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.4",
+                "orchestra/testbench": "^3.0",
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mpociot\\Reauthenticate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "m.pociot@gmail.com"
+                }
+            ],
+            "description": "Reauthenticate users by letting them re-enter their passwords for specific parts of your app.",
+            "keywords": [
+                "Authentication",
+                "password prompt",
+                "reauthentication",
+                "security"
+            ],
+            "time": "2016-07-12 05:58:29"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -1243,12 +1291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "4a6adef0e35e7f9c583312cb9215fad134a90db5"
+                "reference": "2c93134790989cab85199c557c35373925cbcd3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/4a6adef0e35e7f9c583312cb9215fad134a90db5",
-                "reference": "4a6adef0e35e7f9c583312cb9215fad134a90db5",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/2c93134790989cab85199c557c35373925cbcd3c",
+                "reference": "2c93134790989cab85199c557c35373925cbcd3c",
                 "shasum": ""
             },
             "require": {
@@ -1296,7 +1344,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2016-06-16 00:06:34"
+            "time": "2016-07-13 03:13:29"
         },
         {
             "name": "orchestra/extension",
@@ -1429,17 +1477,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "a7cb3442ad02548f1e0cfbf592f7cd2efaf178d3"
+                "reference": "80a3376678f0916fdc4f0660217eb401fe97eca3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/a7cb3442ad02548f1e0cfbf592f7cd2efaf178d3",
-                "reference": "a7cb3442ad02548f1e0cfbf592f7cd2efaf178d3",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/80a3376678f0916fdc4f0660217eb401fe97eca3",
+                "reference": "80a3376678f0916fdc4f0660217eb401fe97eca3",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "~5.3.0",
                 "laravie/html": "~5.3.0",
+                "mpociot/reauthenticate": "~1.1",
                 "orchestra/asset": "~3.3.0",
                 "orchestra/auth": "~3.3.0",
                 "orchestra/contracts": "~3.3.0",
@@ -1448,7 +1497,7 @@
                 "orchestra/kernel": "~3.3.1",
                 "orchestra/memory": "~3.3.1",
                 "orchestra/messages": "~3.3.0",
-                "orchestra/model": "~3.3.2",
+                "orchestra/model": "~3.3.3",
                 "orchestra/notifier": "~3.3.1",
                 "orchestra/optimize": "~3.3.0",
                 "orchestra/publisher": "~3.3.0",
@@ -1505,7 +1554,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-07-11 23:00:13"
+            "time": "2016-07-13 04:06:52"
         },
         {
             "name": "orchestra/html",
@@ -1823,16 +1872,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v3.3.2",
+            "version": "3.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "69e3eadfca1b38426f61bac5131c5c4cf2ef0f7b"
+                "reference": "398d3b6b2f0494ad9f0119de9bc6f1f1e3e85b29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/69e3eadfca1b38426f61bac5131c5c4cf2ef0f7b",
-                "reference": "69e3eadfca1b38426f61bac5131c5c4cf2ef0f7b",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/398d3b6b2f0494ad9f0119de9bc6f1f1e3e85b29",
+                "reference": "398d3b6b2f0494ad9f0119de9bc6f1f1e3e85b29",
                 "shasum": ""
             },
             "require": {
@@ -1876,7 +1925,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-07-11 07:17:39"
+            "time": "2016-07-13 02:23:53"
         },
         {
             "name": "orchestra/notifier",
@@ -2062,12 +2111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "d3736d0b61471aaadbbe6dbf521951ee21c1fce1"
+                "reference": "96bd76a01e9dec42a97cdb48b8b98c78b8e84097"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/d3736d0b61471aaadbbe6dbf521951ee21c1fce1",
-                "reference": "d3736d0b61471aaadbbe6dbf521951ee21c1fce1",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/96bd76a01e9dec42a97cdb48b8b98c78b8e84097",
+                "reference": "96bd76a01e9dec42a97cdb48b8b98c78b8e84097",
                 "shasum": ""
             },
             "require": {
@@ -2114,7 +2163,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-25 13:38:19"
+            "time": "2016-07-12 22:57:24"
         },
         {
             "name": "orchestra/support",
