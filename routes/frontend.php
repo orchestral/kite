@@ -4,7 +4,7 @@ use Illuminate\Routing\Router;
 
 /*
 |--------------------------------------------------------------------------
-| Application Routes
+| Application Frontend Routes
 |--------------------------------------------------------------------------
 |
 | This file is where you may define all of the routes that are handled
@@ -13,7 +13,5 @@ use Illuminate\Routing\Router;
 |
 */
 
-$router->group(['middleware' => ['web']], function (Router $router) {
-    $router->get('/', 'WelcomeController@index');
-    $router->get('home', 'HomeController@index');
-});
+$router->get('/', 'WelcomeController@index');
+$router->get('home', 'HomeController@index');
