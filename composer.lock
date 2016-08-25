@@ -492,16 +492,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "5.3.x-dev",
+            "version": "v5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a9947a115ff2b8b29b3c01a7e6e182afcbd0a97f"
+                "reference": "2213ca11f6fa849ca7c96308934cc6881ab434e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a9947a115ff2b8b29b3c01a7e6e182afcbd0a97f",
-                "reference": "a9947a115ff2b8b29b3c01a7e6e182afcbd0a97f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2213ca11f6fa849ca7c96308934cc6881ab434e8",
+                "reference": "2213ca11f6fa849ca7c96308934cc6881ab434e8",
                 "shasum": ""
             },
             "require": {
@@ -606,7 +606,7 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "The Laravel Framework.",
@@ -615,7 +615,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-08-12 19:17:33"
+            "time": "2016-08-24 23:23:29"
         },
         {
             "name": "laravie/html",
@@ -1475,12 +1475,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "532eaa4341498d7f4fa09b4dc8eee3fbf98d81f3"
+                "reference": "5fbc668c1bc5ca0424bbbe99e5682507186776d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/532eaa4341498d7f4fa09b4dc8eee3fbf98d81f3",
-                "reference": "532eaa4341498d7f4fa09b4dc8eee3fbf98d81f3",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/5fbc668c1bc5ca0424bbbe99e5682507186776d5",
+                "reference": "5fbc668c1bc5ca0424bbbe99e5682507186776d5",
                 "shasum": ""
             },
             "require": {
@@ -1552,7 +1552,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-08-11 14:43:52"
+            "time": "2016-08-24 13:06:07"
         },
         {
             "name": "orchestra/html",
@@ -1674,16 +1674,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "3.3.x-dev",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "b6353e35ff6555636ba3c865ac8e6cdc90cf7804"
+                "reference": "4203b4f1c1ca9b8fa76d1e79003cb8de39255212"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/b6353e35ff6555636ba3c865ac8e6cdc90cf7804",
-                "reference": "b6353e35ff6555636ba3c865ac8e6cdc90cf7804",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/4203b4f1c1ca9b8fa76d1e79003cb8de39255212",
+                "reference": "4203b4f1c1ca9b8fa76d1e79003cb8de39255212",
                 "shasum": ""
             },
             "require": {
@@ -1737,7 +1737,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-08-09 00:11:32"
+            "time": "2016-08-25 03:30:30"
         },
         {
             "name": "orchestra/memory",
@@ -4440,22 +4440,22 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "3.3.x-dev",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "7774153e1488caef64c10c6574b40281d615e1d6"
+                "reference": "59f1ed6c8ecc39930557d80a6a09dce9ba0a6757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/7774153e1488caef64c10c6574b40281d615e1d6",
-                "reference": "7774153e1488caef64c10c6574b40281d615e1d6",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/59f1ed6c8ecc39930557d80a6a09dce9ba0a6757",
+                "reference": "59f1ed6c8ecc39930557d80a6a09dce9ba0a6757",
                 "shasum": ""
             },
             "require": {
                 "fzaninotto/faker": "~1.4",
                 "laravel/framework": "~5.3.0",
-                "orchestra/database": "~3.3.0",
+                "orchestra/database": "~3.3.1",
                 "php": ">=5.6.0",
                 "symfony/css-selector": "3.1.*",
                 "symfony/dom-crawler": "3.1.*"
@@ -4499,7 +4499,7 @@
                 "orchestral",
                 "testing"
             ],
-            "time": "2016-07-31 12:09:00"
+            "time": "2016-08-25 04:16:34"
         },
         {
             "name": "orchestra/testing",
@@ -4507,12 +4507,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testing.git",
-                "reference": "33b475cf69eb98c0ba450c0456efe9e65192d381"
+                "reference": "dd760ae1a1dc814cb6c7e59f06e20da79a5305f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testing/zipball/33b475cf69eb98c0ba450c0456efe9e65192d381",
-                "reference": "33b475cf69eb98c0ba450c0456efe9e65192d381",
+                "url": "https://api.github.com/repos/orchestral/testing/zipball/dd760ae1a1dc814cb6c7e59f06e20da79a5305f9",
+                "reference": "dd760ae1a1dc814cb6c7e59f06e20da79a5305f9",
                 "shasum": ""
             },
             "require": {
@@ -4555,7 +4555,7 @@
                 }
             ],
             "description": "Orchestra Platform Testing Helper",
-            "time": "2016-07-29 04:18:56"
+            "time": "2016-08-13 23:17:04"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -5011,16 +5011,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.5.0",
+            "version": "5.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c7b3e1dcc1d183f26d5ba282881fe65c2cbb5b2b"
+                "reference": "46ec2d1522ae8c9a12aca6b7650e0be78bbb0502"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c7b3e1dcc1d183f26d5ba282881fe65c2cbb5b2b",
-                "reference": "c7b3e1dcc1d183f26d5ba282881fe65c2cbb5b2b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/46ec2d1522ae8c9a12aca6b7650e0be78bbb0502",
+                "reference": "46ec2d1522ae8c9a12aca6b7650e0be78bbb0502",
                 "shasum": ""
             },
             "require": {
@@ -5085,20 +5085,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-08-05 04:49:02"
+            "time": "2016-08-18 11:10:44"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.2.3",
+            "version": "3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "b13d0d9426ced06958bd32104653526a6c998a52"
+                "reference": "4e83390f64e7ce04fcaec2ce95cd72823b431d19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/b13d0d9426ced06958bd32104653526a6c998a52",
-                "reference": "b13d0d9426ced06958bd32104653526a6c998a52",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/4e83390f64e7ce04fcaec2ce95cd72823b431d19",
+                "reference": "4e83390f64e7ce04fcaec2ce95cd72823b431d19",
                 "shasum": ""
             },
             "require": {
@@ -5144,7 +5144,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-06-12 07:37:26"
+            "time": "2016-08-17 09:33:51"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -5309,23 +5309,23 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716"
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/4e8f0da10ac5802913afc151413bc8c53b6c2716",
-                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.4"
+                "phpunit/phpunit": "^4.8 || ^5.0"
             },
             "type": "library",
             "extra": {
@@ -5355,7 +5355,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-05-17 03:18:57"
+            "time": "2016-08-18 05:49:44"
         },
         {
             "name": "sebastian/exporter",
