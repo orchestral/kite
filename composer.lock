@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b0651f7e4af2b0eed47557bcf504f7b6",
-    "content-hash": "1a14dd26ac3baa94c0161b1ab54d49e9",
+    "hash": "169c3e366f547370fc55244f484181d9",
+    "content-hash": "1bc2931b36844cdaccf2414734c276f7",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ClassPreloader/ClassPreloader.git",
-                "reference": "9b10b913c2bdf90c3d2e0d726b454fb7f77c552a"
+                "reference": "bc7206aa892b5a33f4680421b69b191efd32b096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/9b10b913c2bdf90c3d2e0d726b454fb7f77c552a",
-                "reference": "9b10b913c2bdf90c3d2e0d726b454fb7f77c552a",
+                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/bc7206aa892b5a33f4680421b69b191efd32b096",
+                "reference": "bc7206aa892b5a33f4680421b69b191efd32b096",
                 "shasum": ""
             },
             "require": {
-                "nikic/php-parser": "^1.0|^2.0",
+                "nikic/php-parser": "^1.0|^2.0|^3.0",
                 "php": ">=5.5.9"
             },
             "require-dev": {
@@ -31,7 +31,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -59,7 +59,7 @@
                 "class",
                 "preload"
             ],
-            "time": "2015-11-09 22:51:51"
+            "time": "2016-09-16 12:50:15"
         },
         {
             "name": "danielstjules/stringy",
@@ -495,16 +495,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.25",
+            "version": "v5.3.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "90791f6a9eceebb1731ff7191141083ebb127c31"
+                "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/90791f6a9eceebb1731ff7191141083ebb127c31",
-                "reference": "90791f6a9eceebb1731ff7191141083ebb127c31",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/609bcffd2ce2006925f8304e022288b3da5d23a4",
+                "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4",
                 "shasum": ""
             },
             "require": {
@@ -619,7 +619,52 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-11-29 14:42:22"
+            "time": "2016-11-30 14:58:38"
+        },
+        {
+            "name": "laravie/authen",
+            "version": "v0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravie/authen.git",
+                "reference": "be087b7e489a3db242bd8309d87e87ef20972930"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravie/authen/zipball/be087b7e489a3db242bd8309d87e87ef20972930",
+                "reference": "be087b7e489a3db242bd8309d87e87ef20972930",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/auth": "~5.2.0 || ~5.3.0 || ~5.4.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "illuminate/database": "^5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravie\\Authen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com"
+                }
+            ],
+            "description": "User Authentication Identifiers for Laravel",
+            "time": "2016-11-30 10:41:04"
         },
         {
             "name": "laravie/html",
@@ -1475,31 +1520,32 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.3.0-BETA2",
+            "version": "3.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "b34d51ced0d994b04de3eabe572d6a2f6ca01998"
+                "reference": "11b9b0887842bf304ff895adea524b0d8f7e788e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b34d51ced0d994b04de3eabe572d6a2f6ca01998",
-                "reference": "b34d51ced0d994b04de3eabe572d6a2f6ca01998",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/11b9b0887842bf304ff895adea524b0d8f7e788e",
+                "reference": "11b9b0887842bf304ff895adea524b0d8f7e788e",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "~5.3.4",
+                "laravie/authen": "~0.3",
                 "laravie/html": "~5.3.0",
                 "mpociot/reauthenticate": "~1.1",
                 "orchestra/asset": "~3.3.0",
                 "orchestra/auth": "~3.3.0",
                 "orchestra/contracts": "~3.3.1",
                 "orchestra/extension": "~3.3.0",
-                "orchestra/html": "~3.3.1",
-                "orchestra/kernel": "~3.3.2",
+                "orchestra/html": "~3.3.2",
+                "orchestra/kernel": "~3.3.3",
                 "orchestra/memory": "~3.3.1",
                 "orchestra/messages": "~3.3.0",
-                "orchestra/model": "~3.3.4",
+                "orchestra/model": "~3.3.5",
                 "orchestra/notifier": "~3.3.2",
                 "orchestra/optimize": "~3.3.0",
                 "orchestra/publisher": "~3.3.0",
@@ -1556,25 +1602,25 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-11-02 04:20:37"
+            "time": "2016-12-03 12:48:57"
         },
         {
             "name": "orchestra/html",
-            "version": "v3.3.1",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "7d2b37f63c1386aa406c69297dbd5dcf6f1c2ec5"
+                "reference": "184fae70d93334a4d0ab6c1468c975b582951b11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/7d2b37f63c1386aa406c69297dbd5dcf6f1c2ec5",
-                "reference": "7d2b37f63c1386aa406c69297dbd5dcf6f1c2ec5",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/184fae70d93334a4d0ab6c1468c975b582951b11",
+                "reference": "184fae70d93334a4d0ab6c1468c975b582951b11",
                 "shasum": ""
             },
             "require": {
                 "illuminate/translation": "~5.3.0",
-                "laravie/html": "~5.3.0",
+                "laravie/html": "~5.3.1",
                 "orchestra/contracts": "~3.3.0",
                 "orchestra/support": "~3.3.0",
                 "php": ">=5.6.0"
@@ -1619,7 +1665,7 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2016-06-24 14:49:27"
+            "time": "2016-12-03 12:10:15"
         },
         {
             "name": "orchestra/installer",
@@ -1678,16 +1724,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.3.2",
+            "version": "3.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "0f51cc951a11200afad8f55f86dec2bcf67b57b7"
+                "reference": "b35f97c877caba47218c14739a6a2c97bc0d5e2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/0f51cc951a11200afad8f55f86dec2bcf67b57b7",
-                "reference": "0f51cc951a11200afad8f55f86dec2bcf67b57b7",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/b35f97c877caba47218c14739a6a2c97bc0d5e2a",
+                "reference": "b35f97c877caba47218c14739a6a2c97bc0d5e2a",
                 "shasum": ""
             },
             "require": {
@@ -1741,7 +1787,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-11-27 11:47:45"
+            "time": "2016-12-03 08:50:54"
         },
         {
             "name": "orchestra/memory",
@@ -1874,16 +1920,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "v3.3.4",
+            "version": "v3.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "742e55f92f0c01fc8bec114ef86f042debff1c72"
+                "reference": "e1a1d4a40866c6649589fab1b9a05f1bb469533f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/742e55f92f0c01fc8bec114ef86f042debff1c72",
-                "reference": "742e55f92f0c01fc8bec114ef86f042debff1c72",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/e1a1d4a40866c6649589fab1b9a05f1bb469533f",
+                "reference": "e1a1d4a40866c6649589fab1b9a05f1bb469533f",
                 "shasum": ""
             },
             "require": {
@@ -1927,7 +1973,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-09-01 08:17:31"
+            "time": "2016-11-30 10:24:29"
         },
         {
             "name": "orchestra/notifier",
@@ -2993,16 +3039,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.1.7",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc"
+                "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
-                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
+                "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
                 "shasum": ""
             },
             "require": {
@@ -3022,7 +3068,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3049,7 +3095,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-13 06:28:43"
+            "time": "2016-10-13 06:29:04"
         },
         {
             "name": "symfony/finder",
@@ -3958,16 +4004,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.6.1",
+            "version": "v2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "a579557bc689580c19fee4e27487a67fe60defc0"
+                "reference": "7bce00698899aa2c06fe7365c76e4d78ddb15fa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/a579557bc689580c19fee4e27487a67fe60defc0",
-                "reference": "a579557bc689580c19fee4e27487a67fe60defc0",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/7bce00698899aa2c06fe7365c76e4d78ddb15fa3",
+                "reference": "7bce00698899aa2c06fe7365c76e4d78ddb15fa3",
                 "shasum": ""
             },
             "require": {
@@ -4027,7 +4073,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-12-25 13:18:31"
+            "time": "2016-11-30 16:50:46"
         },
         {
             "name": "doctrine/dbal",
@@ -4519,16 +4565,16 @@
         },
         {
             "name": "orchestra/testing",
-            "version": "v3.3.0-BETA1",
+            "version": "v3.3.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testing.git",
-                "reference": "dd760ae1a1dc814cb6c7e59f06e20da79a5305f9"
+                "reference": "dc9ab65e4f431371de7e7e6d8cb8994c805942eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testing/zipball/dd760ae1a1dc814cb6c7e59f06e20da79a5305f9",
-                "reference": "dd760ae1a1dc814cb6c7e59f06e20da79a5305f9",
+                "url": "https://api.github.com/repos/orchestral/testing/zipball/dc9ab65e4f431371de7e7e6d8cb8994c805942eb",
+                "reference": "dc9ab65e4f431371de7e7e6d8cb8994c805942eb",
                 "shasum": ""
             },
             "require": {
@@ -4571,7 +4617,7 @@
                 }
             ],
             "description": "Orchestra Platform Testing Helper",
-            "time": "2016-08-13 23:17:04"
+            "time": "2016-12-03 12:53:52"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -5028,16 +5074,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.6.7",
+            "version": "5.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "38810e97481723ef918f6e35c03cb1014a645bd5"
+                "reference": "336aff0ac52e306c98e7455bc3e8d7b0bf777a5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/38810e97481723ef918f6e35c03cb1014a645bd5",
-                "reference": "38810e97481723ef918f6e35c03cb1014a645bd5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/336aff0ac52e306c98e7455bc3e8d7b0bf777a5e",
+                "reference": "336aff0ac52e306c98e7455bc3e8d7b0bf777a5e",
                 "shasum": ""
             },
             "require": {
@@ -5056,7 +5102,7 @@
                 "phpunit/phpunit-mock-objects": "^3.2",
                 "sebastian/comparator": "~1.2.2",
                 "sebastian/diff": "~1.2",
-                "sebastian/environment": "^1.3 || ^2.0",
+                "sebastian/environment": "^1.3.4 || ^2.0",
                 "sebastian/exporter": "~2.0",
                 "sebastian/global-state": "~1.0",
                 "sebastian/object-enumerator": "~2.0",
@@ -5080,7 +5126,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.6.x-dev"
+                    "dev-master": "5.7.x-dev"
                 }
             },
             "autoload": {
@@ -5106,7 +5152,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-11-28 16:04:24"
+            "time": "2016-12-03 08:33:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -5738,25 +5784,31 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.1.7",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "9da375317228e54f4ea1b013b30fa47417e84943"
+                "reference": "f2300ba8fbb002c028710b92e1906e7457410693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/9da375317228e54f4ea1b013b30fa47417e84943",
-                "reference": "9da375317228e54f4ea1b013b30fa47417e84943",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/f2300ba8fbb002c028710b92e1906e7457410693",
+                "reference": "f2300ba8fbb002c028710b92e1906e7457410693",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
+            "require-dev": {
+                "symfony/console": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -5783,7 +5835,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:05:29"
+            "time": "2016-11-18 21:17:59"
         },
         {
             "name": "webmozart/assert",
@@ -5838,7 +5890,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "orchestra/foundation": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
