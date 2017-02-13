@@ -7,17 +7,17 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "itsgoingd/clockwork": "~1.11",
-        "orchestra/avatar": "~3.3.0",
-        "orchestra/control": "~3.3.0",
-        "orchestra/foundation": "~3.3.0",
-        "orchestra/installer": "~3.3.0",
-        "orchestra/model": "~3.3.2",
-        "orchestra/story": "~3.3.0"
+        "orchestra/avatar": "~3.4.0",
+        "orchestra/control": "~3.4.0",
+        "orchestra/foundation": "~3.4.0",
+        "orchestra/installer": "~3.4.0",
+        "orchestra/story": "~3.4.0"
     },
     "require-dev": {
+        "itsgoingd/clockwork": "~1.13",
         "laravel/homestead": "~3.0",
-        "orchestra/testing": "~3.3"
+        "orchestra/studio": "~3.4.0",
+        "orchestra/testing": "~3.4.0"
     },
     "autoload": {
         "classmap": [

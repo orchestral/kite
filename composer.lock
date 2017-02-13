@@ -4,63 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "169c3e366f547370fc55244f484181d9",
-    "content-hash": "1bc2931b36844cdaccf2414734c276f7",
+    "content-hash": "ca8c9b5c45b4d4471f461501d9ac2e58",
     "packages": [
-        {
-            "name": "classpreloader/classpreloader",
-            "version": "3.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ClassPreloader/ClassPreloader.git",
-                "reference": "bc7206aa892b5a33f4680421b69b191efd32b096"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/bc7206aa892b5a33f4680421b69b191efd32b096",
-                "reference": "bc7206aa892b5a33f4680421b69b191efd32b096",
-                "shasum": ""
-            },
-            "require": {
-                "nikic/php-parser": "^1.0|^2.0|^3.0",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ClassPreloader\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com"
-                },
-                {
-                    "name": "Graham Campbell",
-                    "email": "graham@alt-three.com"
-                }
-            ],
-            "description": "Helps class loading performance by generating a single PHP file containing all of the autoloaded files for a specific use case",
-            "keywords": [
-                "autoload",
-                "class",
-                "preload"
-            ],
-            "time": "2016-09-16 12:50:15"
-        },
         {
             "name": "danielstjules/stringy",
             "version": "2.3.2",
@@ -115,40 +60,7 @@
                 "utility",
                 "utils"
             ],
-            "time": "2016-05-02 15:18:10"
-        },
-        {
-            "name": "dnoegel/php-xdg-base-dir",
-            "version": "0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dnoegel/php-xdg-base-dir.git",
-                "reference": "265b8593498b997dc2d31e75b89f053b5cc9621a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dnoegel/php-xdg-base-dir/zipball/265b8593498b997dc2d31e75b89f053b5cc9621a",
-                "reference": "265b8593498b997dc2d31e75b89f053b5cc9621a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "@stable"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "XdgBaseDir\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "implementation of xdg base directory specification for php",
-            "time": "2014-10-24 07:27:01"
+            "time": "2016-05-02T15:18:10+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -215,7 +127,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06 14:35:42"
+            "time": "2015-11-06T14:35:42+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -257,7 +169,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2016-11-02 15:56:58"
+            "time": "2016-11-02T15:56:58+00:00"
         },
         {
             "name": "erusev/parsedown-extra",
@@ -301,236 +213,44 @@
                 "parsedown",
                 "parser"
             ],
-            "time": "2015-11-01 10:19:22"
-        },
-        {
-            "name": "itsgoingd/clockwork",
-            "version": "v1.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/itsgoingd/clockwork.git",
-                "reference": "76488226d8fdeab29c1782a5a6c154403ad9cdcf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/76488226d8fdeab29c1782a5a6c154403ad9cdcf",
-                "reference": "76488226d8fdeab29c1782a5a6c154403ad9cdcf",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9",
-                "psr/log": "1.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Clockwork\\": "Clockwork/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "itsgoingd",
-                    "email": "itsgoingd@luzer.sk",
-                    "homepage": "http://twitter.com/itsgoingd"
-                }
-            ],
-            "description": "Server-side component of Clockwork, a Chrome extension for PHP development",
-            "homepage": "http://github.com/itsgoingd/clockwork",
-            "keywords": [
-                "debugging",
-                "laravel",
-                "logging",
-                "profiling"
-            ],
-            "time": "2016-06-18 18:17:25"
-        },
-        {
-            "name": "jakub-onderka/php-console-color",
-            "version": "0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JakubOnderka/PHP-Console-Color.git",
-                "reference": "e0b393dacf7703fc36a4efc3df1435485197e6c1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Color/zipball/e0b393dacf7703fc36a4efc3df1435485197e6c1",
-                "reference": "e0b393dacf7703fc36a4efc3df1435485197e6c1",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "jakub-onderka/php-code-style": "1.0",
-                "jakub-onderka/php-parallel-lint": "0.*",
-                "jakub-onderka/php-var-dump-check": "0.*",
-                "phpunit/phpunit": "3.7.*",
-                "squizlabs/php_codesniffer": "1.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "JakubOnderka\\PhpConsoleColor": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Jakub Onderka",
-                    "email": "jakub.onderka@gmail.com",
-                    "homepage": "http://www.acci.cz"
-                }
-            ],
-            "time": "2014-04-08 15:00:19"
-        },
-        {
-            "name": "jakub-onderka/php-console-highlighter",
-            "version": "v0.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JakubOnderka/PHP-Console-Highlighter.git",
-                "reference": "7daa75df45242c8d5b75a22c00a201e7954e4fb5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Highlighter/zipball/7daa75df45242c8d5b75a22c00a201e7954e4fb5",
-                "reference": "7daa75df45242c8d5b75a22c00a201e7954e4fb5",
-                "shasum": ""
-            },
-            "require": {
-                "jakub-onderka/php-console-color": "~0.1",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "jakub-onderka/php-code-style": "~1.0",
-                "jakub-onderka/php-parallel-lint": "~0.5",
-                "jakub-onderka/php-var-dump-check": "~0.1",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "JakubOnderka\\PhpConsoleHighlighter": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jakub Onderka",
-                    "email": "acci@acci.cz",
-                    "homepage": "http://www.acci.cz/"
-                }
-            ],
-            "time": "2015-04-20 18:58:01"
-        },
-        {
-            "name": "jeremeamia/SuperClosure",
-            "version": "2.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jeremeamia/super_closure.git",
-                "reference": "29a88be2a4846d27c1613aed0c9071dfad7b5938"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/29a88be2a4846d27c1613aed0c9071dfad7b5938",
-                "reference": "29a88be2a4846d27c1613aed0c9071dfad7b5938",
-                "shasum": ""
-            },
-            "require": {
-                "nikic/php-parser": "^1.2|^2.0",
-                "php": ">=5.4",
-                "symfony/polyfill-php56": "^1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SuperClosure\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeremy Lindblom",
-                    "email": "jeremeamia@gmail.com",
-                    "homepage": "https://github.com/jeremeamia",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Serialize Closure objects, including their context and binding",
-            "homepage": "https://github.com/jeremeamia/super_closure",
-            "keywords": [
-                "closure",
-                "function",
-                "lambda",
-                "parser",
-                "serializable",
-                "serialize",
-                "tokenizer"
-            ],
-            "time": "2015-12-05 17:17:57"
+            "time": "2015-11-01T10:19:22+00:00"
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.26",
+            "version": "v5.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4"
+                "reference": "9cee8db07cfac13a3a49d17388c9ced4c52e17ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/609bcffd2ce2006925f8304e022288b3da5d23a4",
-                "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9cee8db07cfac13a3a49d17388c9ced4c52e17ac",
+                "reference": "9cee8db07cfac13a3a49d17388c9ced4c52e17ac",
                 "shasum": ""
             },
             "require": {
-                "classpreloader/classpreloader": "~3.0",
                 "doctrine/inflector": "~1.0",
+                "erusev/parsedown": "~1.6",
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
-                "jeremeamia/superclosure": "~2.2",
                 "league/flysystem": "~1.0",
                 "monolog/monolog": "~1.11",
                 "mtdowling/cron-expression": "~1.0",
                 "nesbot/carbon": "~1.20",
                 "paragonie/random_compat": "~1.4|~2.0",
                 "php": ">=5.6.4",
-                "psy/psysh": "0.7.*",
                 "ramsey/uuid": "~3.0",
-                "swiftmailer/swiftmailer": "~5.1",
-                "symfony/console": "3.1.*",
-                "symfony/debug": "3.1.*",
-                "symfony/finder": "3.1.*",
-                "symfony/http-foundation": "3.1.*",
-                "symfony/http-kernel": "3.1.*",
-                "symfony/process": "3.1.*",
-                "symfony/routing": "3.1.*",
-                "symfony/translation": "3.1.*",
-                "symfony/var-dumper": "3.1.*",
+                "swiftmailer/swiftmailer": "~5.4",
+                "symfony/console": "~3.2",
+                "symfony/debug": "~3.2",
+                "symfony/finder": "~3.2",
+                "symfony/http-foundation": "~3.2",
+                "symfony/http-kernel": "~3.2",
+                "symfony/process": "~3.2",
+                "symfony/routing": "~3.2",
+                "symfony/var-dumper": "~3.2",
+                "tijsverkoyen/css-to-inline-styles": "~2.2",
                 "vlucas/phpdotenv": "~2.2"
             },
             "replace": {
@@ -567,31 +287,34 @@
             },
             "require-dev": {
                 "aws/aws-sdk-php": "~3.0",
+                "doctrine/dbal": "~2.5",
                 "mockery/mockery": "~0.9.4",
                 "pda/pheanstalk": "~3.0",
-                "phpunit/phpunit": "~5.4",
+                "phpunit/phpunit": "~5.7",
                 "predis/predis": "~1.0",
-                "symfony/css-selector": "3.1.*",
-                "symfony/dom-crawler": "3.1.*"
+                "symfony/css-selector": "~3.2",
+                "symfony/dom-crawler": "~3.2"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (~3.0).",
-                "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.4).",
+                "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5).",
                 "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
-                "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~5.3|~6.0).",
+                "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~6.0).",
+                "laravel/tinker": "Required to use the tinker console command (~1.0).",
                 "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
                 "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0).",
+                "nexmo/client": "Required to use the Nexmo transport (~1.0).",
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (~3.0).",
                 "predis/predis": "Required to use the redis cache and queue drivers (~1.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~2.0).",
-                "symfony/css-selector": "Required to use some of the crawler integration testing tools (3.1.*).",
-                "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (3.1.*).",
-                "symfony/psr-http-message-bridge": "Required to use psr7 bridging features (0.2.*)."
+                "symfony/css-selector": "Required to use some of the crawler integration testing tools (~3.2).",
+                "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (~3.2).",
+                "symfony/psr-http-message-bridge": "Required to psr7 bridging features (0.2.*)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.3-dev"
+                    "dev-master": "5.4-dev"
                 }
             },
             "autoload": {
@@ -619,33 +342,36 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-11-30 14:58:38"
+            "time": "2017-02-10T19:40:54+00:00"
         },
         {
             "name": "laravie/authen",
-            "version": "v0.3.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravie/authen.git",
-                "reference": "be087b7e489a3db242bd8309d87e87ef20972930"
+                "reference": "ebf23e54f327e6c46dbafe1024212382a5cc181b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravie/authen/zipball/be087b7e489a3db242bd8309d87e87ef20972930",
-                "reference": "be087b7e489a3db242bd8309d87e87ef20972930",
+                "url": "https://api.github.com/repos/laravie/authen/zipball/ebf23e54f327e6c46dbafe1024212382a5cc181b",
+                "reference": "ebf23e54f327e6c46dbafe1024212382a5cc181b",
                 "shasum": ""
             },
             "require": {
-                "illuminate/auth": "~5.2.0 || ~5.3.0 || ~5.4.0",
+                "illuminate/auth": "~5.3",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/database": "^5.2"
+                "mockery/mockery": "^0.9.4",
+                "orchestra/database": "~3.3.6 || ~3.4",
+                "orchestra/testbench": "~3.3.5 || ~3.4.4 || ~3.5",
+                "phpunit/phpunit": "~5.7"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -664,41 +390,41 @@
                 }
             ],
             "description": "User Authentication Identifiers for Laravel",
-            "time": "2016-11-30 10:41:04"
+            "time": "2017-02-08T03:41:28+00:00"
         },
         {
             "name": "laravie/html",
-            "version": "v5.3.1",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravie/html.git",
-                "reference": "06e6d305fa622573c995cf146de56216ab41c46c"
+                "reference": "5e190e104da5a0d4b055be596390d2b801bc9530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravie/html/zipball/06e6d305fa622573c995cf146de56216ab41c46c",
-                "reference": "06e6d305fa622573c995cf146de56216ab41c46c",
+                "url": "https://api.github.com/repos/laravie/html/zipball/5e190e104da5a0d4b055be596390d2b801bc9530",
+                "reference": "5e190e104da5a0d4b055be596390d2b801bc9530",
                 "shasum": ""
             },
             "require": {
-                "illuminate/http": "~5.3.0",
-                "illuminate/routing": "~5.3.0",
-                "illuminate/session": "~5.3.0",
-                "illuminate/support": "~5.3.0",
+                "illuminate/http": "~5.4.0",
+                "illuminate/routing": "~5.4.0",
+                "illuminate/session": "~5.4.0",
+                "illuminate/support": "~5.4.0",
                 "php": ">=5.6.4"
             },
             "replace": {
                 "laravelcollective/html": "*"
             },
             "require-dev": {
-                "illuminate/database": "~5.3.0",
+                "illuminate/database": "~5.4.0",
                 "mockery/mockery": "^0.9.4",
                 "phpunit/phpunit": "~5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.3-dev"
+                    "dev-master": "5.4-dev"
                 }
             },
             "autoload": {
@@ -734,20 +460,20 @@
                 "html",
                 "laravel"
             ],
-            "time": "2016-11-27 11:30:59"
+            "time": "2017-01-26T01:13:01+00:00"
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.32",
+            "version": "1.0.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "1b5c4a0031697f46e779a9d1b309c2e1b24daeab"
+                "reference": "dda7f3ab94158a002d9846a97dc18ebfb7acc062"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/1b5c4a0031697f46e779a9d1b309c2e1b24daeab",
-                "reference": "1b5c4a0031697f46e779a9d1b309c2e1b24daeab",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/dda7f3ab94158a002d9846a97dc18ebfb7acc062",
+                "reference": "dda7f3ab94158a002d9846a97dc18ebfb7acc062",
                 "shasum": ""
             },
             "require": {
@@ -817,7 +543,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-10-19 20:38:46"
+            "time": "2017-02-09T11:33:58+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -895,7 +621,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-11-26 00:15:39"
+            "time": "2016-11-26T00:15:39+00:00"
         },
         {
             "name": "mpociot/reauthenticate",
@@ -943,20 +669,20 @@
                 "reauthentication",
                 "security"
             ],
-            "time": "2016-07-12 05:58:29"
+            "time": "2016-07-12T05:58:29+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mtdowling/cron-expression.git",
-                "reference": "c9ee7886f5a12902b225a1a12f36bb45f9ab89e5"
+                "reference": "9504fa9ea681b586028adaaa0877db4aecf32bad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/c9ee7886f5a12902b225a1a12f36bb45f9ab89e5",
-                "reference": "c9ee7886f5a12902b225a1a12f36bb45f9ab89e5",
+                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/9504fa9ea681b586028adaaa0877db4aecf32bad",
+                "reference": "9504fa9ea681b586028adaaa0877db4aecf32bad",
                 "shasum": ""
             },
             "require": {
@@ -967,8 +693,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Cron": "src/"
+                "psr-4": {
+                    "Cron\\": "src/Cron/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -987,30 +713,36 @@
                 "cron",
                 "schedule"
             ],
-            "time": "2016-01-26 21:23:30"
+            "time": "2017-01-23T04:29:33+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.21.0",
+            "version": "1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "7b08ec6f75791e130012f206e3f7b0e76e18e3d7"
+                "reference": "7cdf42c0b1cc763ab7e4c33c47a24e27c66bfccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7b08ec6f75791e130012f206e3f7b0e76e18e3d7",
-                "reference": "7b08ec6f75791e130012f206e3f7b0e76e18e3d7",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7cdf42c0b1cc763ab7e4c33c47a24e27c66bfccc",
+                "reference": "7cdf42c0b1cc763ab7e4c33c47a24e27c66bfccc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "symfony/translation": "~2.6|~3.0"
+                "symfony/translation": "~2.6 || ~3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0|~5.0"
+                "friendsofphp/php-cs-fixer": "~2",
+                "phpunit/phpunit": "~4.0 || ~5.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.23-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Carbon\\": "src/Carbon/"
@@ -1034,93 +766,40 @@
                 "datetime",
                 "time"
             ],
-            "time": "2015-11-04 20:07:17"
-        },
-        {
-            "name": "nikic/php-parser",
-            "version": "v2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "4dd659edadffdc2143e4753df655d866dbfeedf0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4dd659edadffdc2143e4753df655d866dbfeedf0",
-                "reference": "4dd659edadffdc2143e4753df655d866dbfeedf0",
-                "shasum": ""
-            },
-            "require": {
-                "ext-tokenizer": "*",
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "bin": [
-                "bin/php-parse"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PhpParser\\": "lib/PhpParser"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nikita Popov"
-                }
-            ],
-            "description": "A PHP parser written in PHP",
-            "keywords": [
-                "parser",
-                "php"
-            ],
-            "time": "2016-09-16 12:04:44"
+            "time": "2017-01-16T07:55:07+00:00"
         },
         {
             "name": "orchestra/asset",
-            "version": "v3.3.0",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "89e4f91f7064b1ecc89f347f8d552f1a1ab42532"
+                "reference": "aa75f0188d7d512c9071d7a70cca305210663278"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/89e4f91f7064b1ecc89f347f8d552f1a1ab42532",
-                "reference": "89e4f91f7064b1ecc89f347f8d552f1a1ab42532",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/aa75f0188d7d512c9071d7a70cca305210663278",
+                "reference": "aa75f0188d7d512c9071d7a70cca305210663278",
                 "shasum": ""
             },
             "require": {
-                "laravie/html": "~5.3.0",
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/support-facades": "~3.3.0",
+                "laravie/html": "~5.4.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/support-facades": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/filesystem": "~5.3.0",
+                "illuminate/filesystem": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
             },
             "suggest": {
-                "illuminate/filesystem": "Allow using orchestra/asset component outside of Laravel app (~5.3).",
-                "laravel/framework": "Allow using orchestra/asset component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/asset with Orchestra Platform (~3.3).",
-                "orchestra/html": "Allow using orchestra/asset with HTML component (~3.3)."
+                "illuminate/filesystem": "Allow using orchestra/asset component outside of Laravel app (~5.4).",
+                "orchestra/html": "Allow using orchestra/asset with HTML component (~3.4)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1147,48 +826,43 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-11 12:02:34"
+            "time": "2017-01-20T00:37:32+00:00"
         },
         {
             "name": "orchestra/auth",
-            "version": "v3.3.0",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "24b1a2c0fa7183b3fb252d83cac9815ed31f8be0"
+                "reference": "70ebd05e30e923de5d202052cb31c353b13d9737"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/24b1a2c0fa7183b3fb252d83cac9815ed31f8be0",
-                "reference": "24b1a2c0fa7183b3fb252d83cac9815ed31f8be0",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/70ebd05e30e923de5d202052cb31c353b13d9737",
+                "reference": "70ebd05e30e923de5d202052cb31c353b13d9737",
                 "shasum": ""
             },
             "require": {
-                "illuminate/auth": "~5.3.0",
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/memory": "~3.3.0",
-                "orchestra/notifier": "~3.3.0",
+                "illuminate/auth": "~5.4.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/memory": "~3.4.0",
+                "orchestra/notifier": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "replace": {
                 "orchestra/authorization": "self.version"
             },
             "require-dev": {
-                "illuminate/database": "~5.3.0",
-                "illuminate/queue": "~5.3.0",
-                "illuminate/session": "~5.3.0",
-                "mockery/mockery": "^0.9.1",
-                "paragonie/random_compat": "~1.1"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/auth component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/auth with Orchestra Platform (~3.3).",
-                "orchestra/model": "Allow using orchestra/auth component outside of Orchestra Platform (~3.3)."
+                "illuminate/database": "~5.4.0",
+                "illuminate/queue": "~5.4.0",
+                "illuminate/session": "~5.4.0",
+                "mockery/mockery": "^0.9.4",
+                "paragonie/random_compat": "~1.1|~2.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1222,40 +896,36 @@
                 "permission",
                 "rbac"
             ],
-            "time": "2016-07-27 08:31:12"
+            "time": "2017-02-04T13:01:36+00:00"
         },
         {
             "name": "orchestra/avatar",
-            "version": "v3.3.0",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/avatar.git",
-                "reference": "c76a2267f0e851b9f48682b2b8159e706fa96cda"
+                "reference": "59d85f4c655384c824b8dd19e6e7f0b36ebeb09c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/avatar/zipball/c76a2267f0e851b9f48682b2b8159e706fa96cda",
-                "reference": "c76a2267f0e851b9f48682b2b8159e706fa96cda",
+                "url": "https://api.github.com/repos/orchestral/avatar/zipball/59d85f4c655384c824b8dd19e6e7f0b36ebeb09c",
+                "reference": "59d85f4c655384c824b8dd19e6e7f0b36ebeb09c",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support-facades": "~3.3.0",
-                "orchestra/support-providers": "~3.3.0",
+                "orchestra/support-facades": "~3.4.0",
+                "orchestra/support-providers": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/container": "~5.3.0",
-                "illuminate/database": "~5.3.0",
+                "illuminate/container": "~5.4.0",
+                "illuminate/database": "~5.4.0",
                 "mockery/mockery": "^0.9.1"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/avatar component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/avatar with Orchestra Platform (~3.3)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1282,30 +952,30 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-05-23 10:25:47"
+            "time": "2017-01-28T03:50:19+00:00"
         },
         {
             "name": "orchestra/contracts",
-            "version": "3.3.x-dev",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/contracts.git",
-                "reference": "70fd1a74cf8458e7de36a5aecb9c5dc72f5f4059"
+                "reference": "dac265202ab5e4b4afaca7522e8235d115c61884"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/contracts/zipball/70fd1a74cf8458e7de36a5aecb9c5dc72f5f4059",
-                "reference": "70fd1a74cf8458e7de36a5aecb9c5dc72f5f4059",
+                "url": "https://api.github.com/repos/orchestral/contracts/zipball/dac265202ab5e4b4afaca7522e8235d115c61884",
+                "reference": "dac265202ab5e4b4afaca7522e8235d115c61884",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "~5.3.0",
+                "illuminate/contracts": "~5.4.0",
                 "php": ">=5.6.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1330,36 +1000,36 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-07-14 23:01:44"
+            "time": "2017-01-21T10:26:08+00:00"
         },
         {
             "name": "orchestra/control",
-            "version": "3.3.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "49838f53a89fc92f83d3ea8c9009027051b7201e"
+                "reference": "9bea6f1d08a2fd6cb7122e3a2bf39e6c49dcf747"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/49838f53a89fc92f83d3ea8c9009027051b7201e",
-                "reference": "49838f53a89fc92f83d3ea8c9009027051b7201e",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/9bea6f1d08a2fd6cb7122e3a2bf39e6c49dcf747",
+                "reference": "9bea6f1d08a2fd6cb7122e3a2bf39e6c49dcf747",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/extension": "~3.3.0",
-                "orchestra/support": "~3.3.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/extension": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "mockery/mockery": "^0.9.1",
-                "orchestra/foundation": "~3.3.0"
+                "mockery/mockery": "^0.9.4",
+                "orchestra/foundation": "~3.4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1391,43 +1061,39 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2016-10-19 03:20:39"
+            "time": "2016-12-16T17:31:19+00:00"
         },
         {
             "name": "orchestra/extension",
-            "version": "v3.3.0",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "6bbb089c844f66541b24a9abedc13877e97f7da0"
+                "reference": "b198664b557066fb8b488c45ad7191e2eaba6c64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/6bbb089c844f66541b24a9abedc13877e97f7da0",
-                "reference": "6bbb089c844f66541b24a9abedc13877e97f7da0",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/b198664b557066fb8b488c45ad7191e2eaba6c64",
+                "reference": "b198664b557066fb8b488c45ad7191e2eaba6c64",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/memory": "~3.3.0",
-                "orchestra/support": "~3.3.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/memory": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/console": "~5.3.0",
-                "illuminate/container": "~5.3.0",
-                "illuminate/filesystem": "~5.3.0",
-                "illuminate/http": "~5.3.0",
-                "mockery/mockery": "^0.9.1"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/extension with Orchestra Platform (~3.3)."
+                "illuminate/console": "~5.4.0",
+                "illuminate/container": "~5.4.0",
+                "illuminate/filesystem": "~5.4.0",
+                "illuminate/http": "~5.4.0",
+                "mockery/mockery": "^0.9.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1454,43 +1120,39 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-14 23:51:41"
+            "time": "2017-02-05T09:53:39+00:00"
         },
         {
             "name": "orchestra/facile",
-            "version": "v3.3.1",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "ec001e071ef32194d16f6dd8e15bac65e76907bf"
+                "reference": "52085d1328f5fbf312f5d22b2946783191e1bb4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/ec001e071ef32194d16f6dd8e15bac65e76907bf",
-                "reference": "ec001e071ef32194d16f6dd8e15bac65e76907bf",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/52085d1328f5fbf312f5d22b2946783191e1bb4a",
+                "reference": "52085d1328f5fbf312f5d22b2946783191e1bb4a",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "~5.3.0",
-                "orchestra/support": "~3.3.0",
+                "illuminate/contracts": "~5.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0",
                 "spatie/array-to-xml": "~2.0"
             },
             "require-dev": {
-                "illuminate/container": "~5.3.0",
-                "illuminate/database": "~5.3.0",
-                "illuminate/http": "~5.3.0",
-                "illuminate/pagination": "~5.3.0",
+                "illuminate/container": "~5.4.0",
+                "illuminate/database": "~5.4.0",
+                "illuminate/http": "~5.4.0",
+                "illuminate/pagination": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/facile component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/facile with Orchestra Platform (~3.3)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1516,61 +1178,61 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-20 05:51:39"
+            "time": "2017-01-22T04:08:27+00:00"
         },
         {
             "name": "orchestra/foundation",
-            "version": "3.3.x-dev",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "11b9b0887842bf304ff895adea524b0d8f7e788e"
+                "reference": "c5735f621e2b61dcd23bcf3e810cc2689540cadf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/11b9b0887842bf304ff895adea524b0d8f7e788e",
-                "reference": "11b9b0887842bf304ff895adea524b0d8f7e788e",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/c5735f621e2b61dcd23bcf3e810cc2689540cadf",
+                "reference": "c5735f621e2b61dcd23bcf3e810cc2689540cadf",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.3.4",
-                "laravie/authen": "~0.3",
-                "laravie/html": "~5.3.0",
+                "laravel/framework": "~5.4.0",
+                "laravie/authen": "~1.0",
+                "laravie/html": "~5.4.0",
                 "mpociot/reauthenticate": "~1.1",
-                "orchestra/asset": "~3.3.0",
-                "orchestra/auth": "~3.3.0",
-                "orchestra/contracts": "~3.3.1",
-                "orchestra/extension": "~3.3.0",
-                "orchestra/html": "~3.3.2",
-                "orchestra/kernel": "~3.3.3",
-                "orchestra/memory": "~3.3.1",
-                "orchestra/messages": "~3.3.0",
-                "orchestra/model": "~3.3.5",
-                "orchestra/notifier": "~3.3.2",
-                "orchestra/optimize": "~3.3.0",
-                "orchestra/publisher": "~3.3.0",
-                "orchestra/support": "~3.3.0",
-                "orchestra/translation": "~3.3.0",
-                "orchestra/view": "~3.3.0",
-                "orchestra/widget": "~3.3.2",
+                "orchestra/asset": "~3.4.0",
+                "orchestra/auth": "~3.4.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/extension": "~3.4.0",
+                "orchestra/html": "~3.4.0",
+                "orchestra/kernel": "~3.4.0",
+                "orchestra/memory": "~3.4.0",
+                "orchestra/messages": "~3.4.0",
+                "orchestra/model": "~3.4.0",
+                "orchestra/notifier": "~3.4.0",
+                "orchestra/publisher": "~3.4.0",
+                "orchestra/support": "~3.4.0",
+                "orchestra/translation": "~3.4.0",
+                "orchestra/view": "~3.4.0",
+                "orchestra/widget": "~3.4.0",
                 "php": ">=5.6.4",
                 "predis/predis": "~1.0"
             },
             "require-dev": {
-                "orchestra/testing": "~3.3.0",
-                "phpunit/phpunit": "~4.8|~5.0"
+                "orchestra/installer": "~3.4.0",
+                "orchestra/testing": "~3.4.0",
+                "phpunit/phpunit": "~5.6"
             },
             "suggest": {
-                "orchestra/avatar": "Add gravatar support for Orchestra Platform (~3.3).",
-                "orchestra/ftp-updater": "Allow Extension with asset to be updated/uploaded environment without SSH support (~3.3).",
-                "orchestra/installer": "Allow Orchestra Platform to be installed in new application (~3.3).",
-                "orchestra/studio": "Allow additional code generator for Orchestra Platform (~3.3).",
-                "orchestra/testing": "Allow better unit testing support for Orchestra Platform (~3.3)."
+                "orchestra/avatar": "Add gravatar support for Orchestra Platform (~3.4).",
+                "orchestra/ftp-updater": "Allow Extension with asset to be updated/uploaded environment without SSH support (~3.4).",
+                "orchestra/installer": "Allow Orchestra Platform to be installed in new application (~3.4).",
+                "orchestra/studio": "Allow additional code generator for Orchestra Platform (~3.4).",
+                "orchestra/testing": "Allow better unit testing support for Orchestra Platform (~3.4)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1602,41 +1264,37 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-12-03 12:48:57"
+            "time": "2017-02-13T10:44:43+00:00"
         },
         {
             "name": "orchestra/html",
-            "version": "v3.3.2",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "184fae70d93334a4d0ab6c1468c975b582951b11"
+                "reference": "ecfc1dbb246743733a46cc036424874fce1e3c2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/184fae70d93334a4d0ab6c1468c975b582951b11",
-                "reference": "184fae70d93334a4d0ab6c1468c975b582951b11",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/ecfc1dbb246743733a46cc036424874fce1e3c2a",
+                "reference": "ecfc1dbb246743733a46cc036424874fce1e3c2a",
                 "shasum": ""
             },
             "require": {
-                "illuminate/translation": "~5.3.0",
-                "laravie/html": "~5.3.1",
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/support": "~3.3.0",
+                "illuminate/translation": "~5.4.0",
+                "laravie/html": "~5.4.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/database": "~5.3.0",
+                "illuminate/database": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/html component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/html with Orchestra Platform (~3.3)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1665,36 +1323,36 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2016-12-03 12:10:15"
+            "time": "2017-01-22T04:17:35+00:00"
         },
         {
             "name": "orchestra/installer",
-            "version": "v3.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/installer.git",
-                "reference": "b30e3641cfc4f3eff1ca78f2f90e72c9c0cc8cff"
+                "reference": "3021d88dc8bd16ed974aa5f976ad98bc3611e171"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/installer/zipball/b30e3641cfc4f3eff1ca78f2f90e72c9c0cc8cff",
-                "reference": "b30e3641cfc4f3eff1ca78f2f90e72c9c0cc8cff",
+                "url": "https://api.github.com/repos/orchestral/installer/zipball/3021d88dc8bd16ed974aa5f976ad98bc3611e171",
+                "reference": "3021d88dc8bd16ed974aa5f976ad98bc3611e171",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "~3.3.0",
+                "orchestra/contracts": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "mockery/mockery": "0.9.*",
-                "orchestra/foundation": "~3.3.0",
-                "orchestra/testing": "~3.3.0",
+                "mockery/mockery": "^0.9.4",
+                "orchestra/foundation": "~3.4.0",
+                "orchestra/testing": "~3.4.0",
                 "phpunit/phpunit": "~4.0|~5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1720,26 +1378,26 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-08-31 01:17:36"
+            "time": "2017-01-27T02:19:05+00:00"
         },
         {
             "name": "orchestra/kernel",
-            "version": "3.3.x-dev",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "b35f97c877caba47218c14739a6a2c97bc0d5e2a"
+                "reference": "d401609ebfb49d41b72e871e3c17c890dcd91559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/b35f97c877caba47218c14739a6a2c97bc0d5e2a",
-                "reference": "b35f97c877caba47218c14739a6a2c97bc0d5e2a",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/d401609ebfb49d41b72e871e3c17c890dcd91559",
+                "reference": "d401609ebfb49d41b72e871e3c17c890dcd91559",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/notifier": "~3.3.1",
-                "orchestra/support": "~3.3.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/notifier": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "replace": {
@@ -1751,7 +1409,7 @@
             },
             "require-dev": {
                 "hashids/hashids": "~1.0",
-                "laravel/framework": "~5.3.0",
+                "laravel/framework": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
             },
             "suggest": {
@@ -1760,7 +1418,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1787,40 +1445,40 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-12-03 08:50:54"
+            "time": "2017-02-12T14:17:40+00:00"
         },
         {
             "name": "orchestra/memory",
-            "version": "v3.3.1",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "b0f358ba5ed89d398f58f8c2cecb6d99f593775f"
+                "reference": "60adcf497ebf7368acaae1091c4b8631349a5cb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/b0f358ba5ed89d398f58f8c2cecb6d99f593775f",
-                "reference": "b0f358ba5ed89d398f58f8c2cecb6d99f593775f",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/60adcf497ebf7368acaae1091c4b8631349a5cb9",
+                "reference": "60adcf497ebf7368acaae1091c4b8631349a5cb9",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/support": "~3.3.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/container": "~5.3.0",
-                "illuminate/database": "~5.3.0",
+                "illuminate/container": "~5.4.0",
+                "illuminate/database": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/memory component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/memory with Orchestra Platform (~3.3)."
+                "laravel/framework": "Allow using orchestra/memory component outside of Orchestra Platform (~5.4).",
+                "orchestra/foundation": "Allow using orchestra/memory with Orchestra Platform (~3.4)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1851,41 +1509,37 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-25 12:52:39"
+            "time": "2017-01-22T03:48:43+00:00"
         },
         {
             "name": "orchestra/messages",
-            "version": "v3.3.0",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/messages.git",
-                "reference": "dc049a3626593c887d8ff08eb2aa34387daa5829"
+                "reference": "e54038e6b3235135a9f93223f090a82ae5dbebd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/messages/zipball/dc049a3626593c887d8ff08eb2aa34387daa5829",
-                "reference": "dc049a3626593c887d8ff08eb2aa34387daa5829",
+                "url": "https://api.github.com/repos/orchestral/messages/zipball/e54038e6b3235135a9f93223f090a82ae5dbebd7",
+                "reference": "e54038e6b3235135a9f93223f090a82ae5dbebd7",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/support": "~3.3.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/container": "~5.3.0",
-                "illuminate/http": "~5.3.0",
-                "illuminate/session": "~5.3.0",
+                "illuminate/container": "~5.4.0",
+                "illuminate/http": "~5.4.0",
+                "illuminate/session": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/messages component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/messages with Orchestra Platform (~3.3)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1916,37 +1570,37 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-06-11 01:43:19"
+            "time": "2017-01-26T02:50:01+00:00"
         },
         {
             "name": "orchestra/model",
-            "version": "v3.3.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "e1a1d4a40866c6649589fab1b9a05f1bb469533f"
+                "reference": "77a43f735771c1611f625dc812e3a72053459498"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/e1a1d4a40866c6649589fab1b9a05f1bb469533f",
-                "reference": "e1a1d4a40866c6649589fab1b9a05f1bb469533f",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/77a43f735771c1611f625dc812e3a72053459498",
+                "reference": "77a43f735771c1611f625dc812e3a72053459498",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/notifier": "~3.3.0",
-                "orchestra/support": "~3.3.1",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/notifier": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/auth": "~5.3.0",
-                "illuminate/database": "~5.3.0",
-                "mockery/mockery": "^0.9.1"
+                "illuminate/auth": "~5.4.0",
+                "illuminate/database": "~5.4.0",
+                "mockery/mockery": "^0.9.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -1973,35 +1627,35 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-11-30 10:24:29"
+            "time": "2017-01-06T01:05:22+00:00"
         },
         {
             "name": "orchestra/notifier",
-            "version": "v3.3.2",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "22f9663aeceae38216f5e86a8b2bcfb22cd54e8d"
+                "reference": "075ece1f809d08dc86ec82ce49dc0bfecc662d3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/22f9663aeceae38216f5e86a8b2bcfb22cd54e8d",
-                "reference": "22f9663aeceae38216f5e86a8b2bcfb22cd54e8d",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/075ece1f809d08dc86ec82ce49dc0bfecc662d3f",
+                "reference": "075ece1f809d08dc86ec82ce49dc0bfecc662d3f",
                 "shasum": ""
             },
             "require": {
-                "illuminate/encryption": "~5.3.0",
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/memory": "~3.3.0",
-                "orchestra/support": "~3.3.0",
+                "illuminate/encryption": "~5.4.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/memory": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0",
-                "tijsverkoyen/css-to-inline-styles": "~1.2"
+                "tijsverkoyen/css-to-inline-styles": "~2.2"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "~3.0",
-                "illuminate/mail": "~5.3.0",
-                "jeremeamia/superclosure": "~2.0",
-                "mockery/mockery": "0.9.*"
+                "illuminate/mail": "~5.4.0",
+                "jeremeamia/superclosure": "~2.2",
+                "mockery/mockery": "~0.9.4"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Required to use the SES mail driver (~3.0).",
@@ -2010,7 +1664,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2036,95 +1690,38 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-08-31 02:52:11"
-        },
-        {
-            "name": "orchestra/optimize",
-            "version": "v3.3.0-BETA1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/optimize.git",
-                "reference": "9c3a9d704a35c9d96e9f2f7638c1f4681bd11b8f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/9c3a9d704a35c9d96e9f2f7638c1f4681bd11b8f",
-                "reference": "9c3a9d704a35c9d96e9f2f7638c1f4681bd11b8f",
-                "shasum": ""
-            },
-            "require": {
-                "orchestra/contracts": "~3.3.0",
-                "php": ">=5.6.0"
-            },
-            "require-dev": {
-                "illuminate/console": "~5.3.0",
-                "illuminate/container": "~5.3.0",
-                "illuminate/filesystem": "~5.3.0",
-                "mockery/mockery": "^0.9.4"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Orchestra\\Optimize\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                }
-            ],
-            "description": "Optimize Component for Orchestra Platform",
-            "keywords": [
-                "orchestra-platform",
-                "orchestral"
-            ],
-            "time": "2016-07-31 12:55:24"
+            "time": "2017-01-01T16:10:16+00:00"
         },
         {
             "name": "orchestra/publisher",
-            "version": "v3.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/publisher.git",
-                "reference": "4ccd8dae391b605486d514c941d4ed1b95ab2c0c"
+                "reference": "d19e28da22bbf6a0bd8e3da313d8a1b587eb7576"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/publisher/zipball/4ccd8dae391b605486d514c941d4ed1b95ab2c0c",
-                "reference": "4ccd8dae391b605486d514c941d4ed1b95ab2c0c",
+                "url": "https://api.github.com/repos/orchestral/publisher/zipball/d19e28da22bbf6a0bd8e3da313d8a1b587eb7576",
+                "reference": "d19e28da22bbf6a0bd8e3da313d8a1b587eb7576",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~5.3.0",
-                "orchestra/contracts": "~3.3.0",
+                "illuminate/support": "~5.4.0",
+                "orchestra/contracts": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/console": "~5.3.0",
-                "illuminate/container": "~5.3.0",
-                "illuminate/database": "~5.3.0",
-                "illuminate/filesystem": "~5.3.0",
+                "illuminate/console": "~5.4.0",
+                "illuminate/container": "~5.4.0",
+                "illuminate/database": "~5.4.0",
+                "illuminate/filesystem": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/extension with Orchestra Platform (~3.3)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2151,38 +1748,38 @@
                 "orchestral",
                 "orchestral-platform"
             ],
-            "time": "2016-06-14 21:49:49"
+            "time": "2017-01-26T11:38:51+00:00"
         },
         {
             "name": "orchestra/story",
-            "version": "3.3.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "7d34fbc2c28be17a3be1fcf71be4bc0537595f59"
+                "reference": "46e623b50b3844ea5738234d5f1a6e48907d83b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/7d34fbc2c28be17a3be1fcf71be4bc0537595f59",
-                "reference": "7d34fbc2c28be17a3be1fcf71be4bc0537595f59",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/46e623b50b3844ea5738234d5f1a6e48907d83b4",
+                "reference": "46e623b50b3844ea5738234d5f1a6e48907d83b4",
                 "shasum": ""
             },
             "require": {
                 "erusev/parsedown": "~1.1",
                 "erusev/parsedown-extra": "~0.2",
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/facile": "~3.3.0",
-                "orchestra/support": "~3.3.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/facile": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
                 "mockery/mockery": "^0.9.1",
-                "orchestra/foundation": "~3.3.0"
+                "orchestra/foundation": "~3.4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2211,26 +1808,26 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-07-31 12:57:20"
+            "time": "2016-06-17T00:00:35+00:00"
         },
         {
             "name": "orchestra/support",
-            "version": "v3.3.1",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "8123a8d9e0516cdf7326ea2a3c5c0240d7fd49c1"
+                "reference": "ed269cecb137a8f3e6c4a371eed310a92ef30acb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/8123a8d9e0516cdf7326ea2a3c5c0240d7fd49c1",
-                "reference": "8123a8d9e0516cdf7326ea2a3c5c0240d7fd49c1",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/ed269cecb137a8f3e6c4a371eed310a92ef30acb",
+                "reference": "ed269cecb137a8f3e6c4a371eed310a92ef30acb",
                 "shasum": ""
             },
             "require": {
                 "danielstjules/stringy": "~2.1",
-                "illuminate/support": "~5.3.0",
-                "orchestra/contracts": "~3.3.0",
+                "illuminate/support": "~5.4.0",
+                "orchestra/contracts": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "replace": {
@@ -2239,22 +1836,23 @@
                 "orchestra/support-providers": "self.version"
             },
             "require-dev": {
-                "illuminate/database": "~5.3.0",
-                "illuminate/encryption": "~5.3.0",
-                "illuminate/routing": "~5.3.0",
-                "illuminate/session": "~5.3.0",
+                "illuminate/database": "~5.4.0",
+                "illuminate/encryption": "~5.4.0",
+                "illuminate/http": "~5.4.0",
+                "illuminate/routing": "~5.4.0",
+                "illuminate/session": "~5.4.0",
                 "mockery/mockery": "^0.9.4",
                 "paragonie/random_compat": "~1.1"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform (~3.3).",
-                "orchestra/messages": "Allow using Messages component (~3.3)."
+                "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform (~5.4).",
+                "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform (~3.4).",
+                "orchestra/messages": "Allow using Messages component (~3.4)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2284,37 +1882,34 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2016-09-01 11:59:07"
+            "time": "2017-01-22T12:38:56+00:00"
         },
         {
             "name": "orchestra/translation",
-            "version": "v3.3.0",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/translation.git",
-                "reference": "47b0c8c0bfaa39e7fd8fad3bdf1e606e7b5c08b1"
+                "reference": "18a7768486bb949b03dbc2c4b3b5bc2cae2eeed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/translation/zipball/47b0c8c0bfaa39e7fd8fad3bdf1e606e7b5c08b1",
-                "reference": "47b0c8c0bfaa39e7fd8fad3bdf1e606e7b5c08b1",
+                "url": "https://api.github.com/repos/orchestral/translation/zipball/18a7768486bb949b03dbc2c4b3b5bc2cae2eeed9",
+                "reference": "18a7768486bb949b03dbc2c4b3b5bc2cae2eeed9",
                 "shasum": ""
             },
             "require": {
-                "illuminate/translation": "~5.3.0",
+                "illuminate/translation": "~5.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/http": "~5.3.0",
+                "illuminate/http": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation (~5.3)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2341,43 +1936,43 @@
                 "orchestral",
                 "translation"
             ],
-            "time": "2016-06-11 00:10:02"
+            "time": "2017-01-26T03:31:01+00:00"
         },
         {
             "name": "orchestra/view",
-            "version": "v3.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "cc66f2884aa6c7808b3290d5933b0291404e49d2"
+                "reference": "bdfbb4766d4a527f212b823e2ac213a4a6a3fa39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/cc66f2884aa6c7808b3290d5933b0291404e49d2",
-                "reference": "cc66f2884aa6c7808b3290d5933b0291404e49d2",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/bdfbb4766d4a527f212b823e2ac213a4a6a3fa39",
+                "reference": "bdfbb4766d4a527f212b823e2ac213a4a6a3fa39",
                 "shasum": ""
             },
             "require": {
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/memory": "~3.3.0",
-                "orchestra/support": "~3.3.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/memory": "~3.4.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/console": "~5.3.0",
-                "illuminate/container": "~5.3.0",
-                "illuminate/filesystem": "~5.3.0",
-                "illuminate/view": "~5.3.0",
+                "illuminate/console": "~5.4.0",
+                "illuminate/container": "~5.4.0",
+                "illuminate/filesystem": "~5.4.0",
+                "illuminate/view": "~5.4.0",
                 "mockery/mockery": "^0.9.4"
             },
             "suggest": {
-                "laravel/framework": "Allow using orchestra/view component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/view with Orchestra Platform (~3.3)."
+                "laravel/framework": "Allow using orchestra/view component outside of Orchestra Platform (~5.4).",
+                "orchestra/foundation": "Allow using orchestra/view with Orchestra Platform (~3.4)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2405,38 +2000,34 @@
                 "theme",
                 "view"
             ],
-            "time": "2016-06-14 21:40:29"
+            "time": "2016-06-16T12:05:07+00:00"
         },
         {
             "name": "orchestra/widget",
-            "version": "v3.3.2",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "7670c8a7b9acddc5068d1e52797bd1669baf367b"
+                "reference": "fc85d010bdf850955a323e6819316887aa453680"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/7670c8a7b9acddc5068d1e52797bd1669baf367b",
-                "reference": "7670c8a7b9acddc5068d1e52797bd1669baf367b",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/fc85d010bdf850955a323e6819316887aa453680",
+                "reference": "fc85d010bdf850955a323e6819316887aa453680",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support": "~3.3.0",
+                "orchestra/support": "~3.4.0",
                 "php": ">=5.6.0"
             },
             "require-dev": {
-                "illuminate/container": "~5.3.0",
-                "mockery/mockery": "0.9.*"
-            },
-            "suggest": {
-                "laravel/framework": "Allow using orchestra/widget component outside of Orchestra Platform (~5.3).",
-                "orchestra/foundation": "Allow using orchestra/widget with Orchestra Platform (~3.3)."
+                "illuminate/container": "~5.4.0",
+                "mockery/mockery": "~0.9.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2463,7 +2054,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2016-06-24 23:10:56"
+            "time": "2017-01-22T05:00:28+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2511,7 +2102,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-11-07 23:38:38"
+            "time": "2016-11-07T23:38:38+00:00"
         },
         {
             "name": "predis/predis",
@@ -2561,7 +2152,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2016-06-16 16:22:20"
+            "time": "2016-06-16T16:22:20+00:00"
         },
         {
             "name": "psr/log",
@@ -2608,79 +2199,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
-        },
-        {
-            "name": "psy/psysh",
-            "version": "v0.7.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "e64e10b20f8d229cac76399e1f3edddb57a0f280"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/e64e10b20f8d229cac76399e1f3edddb57a0f280",
-                "reference": "e64e10b20f8d229cac76399e1f3edddb57a0f280",
-                "shasum": ""
-            },
-            "require": {
-                "dnoegel/php-xdg-base-dir": "0.1",
-                "jakub-onderka/php-console-highlighter": "0.3.*",
-                "nikic/php-parser": "^1.2.1|~2.0",
-                "php": ">=5.3.9",
-                "symfony/console": "~2.3.10|^2.4.2|~3.0",
-                "symfony/var-dumper": "~2.7|~3.0"
-            },
-            "require-dev": {
-                "fabpot/php-cs-fixer": "~1.5",
-                "phpunit/phpunit": "~3.7|~4.0|~5.0",
-                "squizlabs/php_codesniffer": "~2.0",
-                "symfony/finder": "~2.1|~3.0"
-            },
-            "suggest": {
-                "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
-                "ext-pdo-sqlite": "The doc command requires SQLite to work.",
-                "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
-                "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history."
-            },
-            "bin": [
-                "bin/psysh"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "0.8.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/Psy/functions.php"
-                ],
-                "psr-4": {
-                    "Psy\\": "src/Psy/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Justin Hileman",
-                    "email": "justin@justinhileman.info",
-                    "homepage": "http://justinhileman.com"
-                }
-            ],
-            "description": "An interactive shell for modern PHP.",
-            "homepage": "http://psysh.org",
-            "keywords": [
-                "REPL",
-                "console",
-                "interactive",
-                "shell"
-            ],
-            "time": "2016-03-09 05:03:14"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -2762,29 +2281,28 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2016-11-22 19:21:44"
+            "time": "2016-11-22T19:21:44+00:00"
         },
         {
             "name": "spatie/array-to-xml",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/array-to-xml.git",
-                "reference": "3222421c5fde8822e6746bcd6253df2c20e1d5bc"
+                "reference": "26344dae3450ca3efcb003343f292d9c31dc7a2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/array-to-xml/zipball/3222421c5fde8822e6746bcd6253df2c20e1d5bc",
-                "reference": "3222421c5fde8822e6746bcd6253df2c20e1d5bc",
+                "url": "https://api.github.com/repos/spatie/array-to-xml/zipball/26344dae3450ca3efcb003343f292d9c31dc7a2d",
+                "reference": "26344dae3450ca3efcb003343f292d9c31dc7a2d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^5.4|^7.0"
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "4.*",
-                "scrutinizer/ocular": "~1.1"
+                "phpunit/phpunit": "4.*"
             },
             "type": "library",
             "autoload": {
@@ -2811,27 +2329,28 @@
                 "convert",
                 "xml"
             ],
-            "time": "2016-07-04 12:29:38"
+            "time": "2016-12-08T09:21:07+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.4",
+            "version": "v5.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756"
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/545ce9136690cea74f98f86fbb9c92dd9ab1a756",
-                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1"
+                "mockery/mockery": "~0.9.1",
+                "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
@@ -2864,20 +2383,20 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-11-24 01:01:23"
+            "time": "2017-02-13T07:52:53+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "5be36e1f3ac7ecbe7e34fb641480ad8497b83aa6"
+                "reference": "7a8405a9fc175f87fed8a3c40856b0d866d61936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/5be36e1f3ac7ecbe7e34fb641480ad8497b83aa6",
-                "reference": "5be36e1f3ac7ecbe7e34fb641480ad8497b83aa6",
+                "url": "https://api.github.com/repos/symfony/console/zipball/7a8405a9fc175f87fed8a3c40856b0d866d61936",
+                "reference": "7a8405a9fc175f87fed8a3c40856b0d866d61936",
                 "shasum": ""
             },
             "require": {
@@ -2888,17 +2407,19 @@
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/event-dispatcher": "~2.8|~3.0",
+                "symfony/filesystem": "~2.8|~3.0",
                 "symfony/process": "~2.8|~3.0"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
                 "symfony/event-dispatcher": "",
+                "symfony/filesystem": "",
                 "symfony/process": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -2925,20 +2446,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-16 22:17:09"
+            "time": "2017-02-06T12:04:21+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "a37b3359566415a91cba55a2d95820b3fa1a9658"
+                "reference": "f0e628f04fc055c934b3211cfabdb1c59eefbfaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/a37b3359566415a91cba55a2d95820b3fa1a9658",
-                "reference": "a37b3359566415a91cba55a2d95820b3fa1a9658",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f0e628f04fc055c934b3211cfabdb1c59eefbfaa",
+                "reference": "f0e628f04fc055c934b3211cfabdb1c59eefbfaa",
                 "shasum": ""
             },
             "require": {
@@ -2947,7 +2468,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -2978,20 +2499,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 08:04:31"
+            "time": "2017-01-02T20:32:22+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "c058661c32f5b462722e36d120905940089cbd9a"
+                "reference": "b4d9818f127c60ce21ed62c395da7df868dc8477"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/c058661c32f5b462722e36d120905940089cbd9a",
-                "reference": "c058661c32f5b462722e36d120905940089cbd9a",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/b4d9818f127c60ce21ed62c395da7df868dc8477",
+                "reference": "b4d9818f127c60ce21ed62c395da7df868dc8477",
                 "shasum": ""
             },
             "require": {
@@ -3008,7 +2529,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3035,20 +2556,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-15 12:55:20"
+            "time": "2017-01-28T02:37:08+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.0",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283"
+                "reference": "9137eb3a3328e413212826d63eeeb0217836e2b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
-                "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9137eb3a3328e413212826d63eeeb0217836e2b6",
+                "reference": "9137eb3a3328e413212826d63eeeb0217836e2b6",
                 "shasum": ""
             },
             "require": {
@@ -3095,20 +2616,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-13 06:29:04"
+            "time": "2017-01-02T20:32:22+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "9925935bf7144f9e4d2b976905881b4face036fb"
+                "reference": "8c71141cae8e2957946b403cc71a67213c0380d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/9925935bf7144f9e4d2b976905881b4face036fb",
-                "reference": "9925935bf7144f9e4d2b976905881b4face036fb",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/8c71141cae8e2957946b403cc71a67213c0380d6",
+                "reference": "8c71141cae8e2957946b403cc71a67213c0380d6",
                 "shasum": ""
             },
             "require": {
@@ -3117,7 +2638,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3144,20 +2665,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 08:04:31"
+            "time": "2017-01-02T20:32:22+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "5a4c8099a1547fe451256e056180ad4624177017"
+                "reference": "e192b04de44aa1ed0e39d6793f7e06f5e0b672a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/5a4c8099a1547fe451256e056180ad4624177017",
-                "reference": "5a4c8099a1547fe451256e056180ad4624177017",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/e192b04de44aa1ed0e39d6793f7e06f5e0b672a0",
+                "reference": "e192b04de44aa1ed0e39d6793f7e06f5e0b672a0",
                 "shasum": ""
             },
             "require": {
@@ -3170,7 +2691,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3197,20 +2718,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-16 22:17:09"
+            "time": "2017-02-02T13:47:35+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "674ac403c7b3742c2a988a86e3baf9aca2c696a0"
+                "reference": "96443239baf674b143604fb87cb27cb01672ab77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/674ac403c7b3742c2a988a86e3baf9aca2c696a0",
-                "reference": "674ac403c7b3742c2a988a86e3baf9aca2c696a0",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/96443239baf674b143604fb87cb27cb01672ab77",
+                "reference": "96443239baf674b143604fb87cb27cb01672ab77",
                 "shasum": ""
             },
             "require": {
@@ -3238,7 +2759,7 @@
                 "symfony/stopwatch": "~2.8|~3.0",
                 "symfony/templating": "~2.8|~3.0",
                 "symfony/translation": "~2.8|~3.0",
-                "symfony/var-dumper": "~2.8|~3.0"
+                "symfony/var-dumper": "~3.2"
             },
             "suggest": {
                 "symfony/browser-kit": "",
@@ -3252,7 +2773,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3279,7 +2800,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-21 02:44:20"
+            "time": "2017-02-06T13:15:19+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -3338,128 +2859,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
-        },
-        {
-            "name": "symfony/polyfill-php56",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "1dd42b9b89556f18092f3d1ada22cb05ac85383c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/1dd42b9b89556f18092f3d1ada22cb05ac85383c",
-                "reference": "1dd42b9b89556f18092f3d1ada22cb05ac85383c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "symfony/polyfill-util": "~1.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php56\\": ""
-                },
-                "files": [
-                    "bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill backporting some PHP 5.6+ features to lower PHP versions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "time": "2016-11-14 01:06:16"
-        },
-        {
-            "name": "symfony/polyfill-util",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "746bce0fca664ac0a575e465f65c6643faddf7fb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/746bce0fca664ac0a575e465f65c6643faddf7fb",
-                "reference": "746bce0fca664ac0a575e465f65c6643faddf7fb",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Util\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony utilities for portability of PHP codes",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compat",
-                "compatibility",
-                "polyfill",
-                "shim"
-            ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "66de154ae86b1a07001da9fbffd620206e4faf94"
+                "reference": "32646a7cf53f3956c76dcb5c82555224ae321858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/66de154ae86b1a07001da9fbffd620206e4faf94",
-                "reference": "66de154ae86b1a07001da9fbffd620206e4faf94",
+                "url": "https://api.github.com/repos/symfony/process/zipball/32646a7cf53f3956c76dcb5c82555224ae321858",
+                "reference": "32646a7cf53f3956c76dcb5c82555224ae321858",
                 "shasum": ""
             },
             "require": {
@@ -3468,7 +2881,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3495,20 +2908,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-29 14:13:09"
+            "time": "2017-02-03T12:11:38+00:00"
         },
         {
             "name": "symfony/routing",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "8edf62498a1a4c57ba317664a4b698339c10cdf6"
+                "reference": "af464432c177dbcdbb32295113b7627500331f2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/8edf62498a1a4c57ba317664a4b698339c10cdf6",
-                "reference": "8edf62498a1a4c57ba317664a4b698339c10cdf6",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/af464432c177dbcdbb32295113b7627500331f2d",
+                "reference": "af464432c177dbcdbb32295113b7627500331f2d",
                 "shasum": ""
             },
             "require": {
@@ -3537,7 +2950,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3570,20 +2983,20 @@
                 "uri",
                 "url"
             ],
-            "time": "2016-08-16 14:58:24"
+            "time": "2017-01-28T02:37:08+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "2f4b6114b75c506dd1ee7eb485b35facbcb2d873"
+                "reference": "ca032cc56976d88b85e7386b17020bc6dc95dbc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/2f4b6114b75c506dd1ee7eb485b35facbcb2d873",
-                "reference": "2f4b6114b75c506dd1ee7eb485b35facbcb2d873",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/ca032cc56976d88b85e7386b17020bc6dc95dbc5",
+                "reference": "ca032cc56976d88b85e7386b17020bc6dc95dbc5",
                 "shasum": ""
             },
             "require": {
@@ -3607,7 +3020,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3634,20 +3047,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:15:08"
+            "time": "2017-01-21T17:06:35+00:00"
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "0c2d613e890e33f4da810159ac97931068f5bd17"
+                "reference": "5bb4435a03a4f05c211f4a9a8ee2756965924511"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/0c2d613e890e33f4da810159ac97931068f5bd17",
-                "reference": "0c2d613e890e33f4da810159ac97931068f5bd17",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/5bb4435a03a4f05c211f4a9a8ee2756965924511",
+                "reference": "5bb4435a03a4f05c211f4a9a8ee2756965924511",
                 "shasum": ""
             },
             "require": {
@@ -3663,7 +3076,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3697,33 +3110,33 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-11-03 08:04:31"
+            "time": "2017-01-24T12:58:58+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
-            "version": "1.5.5",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
-                "reference": "9753fc340726e327e4d48b7c0604f85475ae0bc3"
+                "reference": "ab03919dfd85a74ae0372f8baf9f3c7d5c03b04b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/9753fc340726e327e4d48b7c0604f85475ae0bc3",
-                "reference": "9753fc340726e327e4d48b7c0604f85475ae0bc3",
+                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/ab03919dfd85a74ae0372f8baf9f3c7d5c03b04b",
+                "reference": "ab03919dfd85a74ae0372f8baf9f3c7d5c03b04b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
-                "symfony/css-selector": "~2.1|~3.0"
+                "php": "^5.5 || ^7",
+                "symfony/css-selector": "^2.7|~3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.8|5.1.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -3733,7 +3146,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -3744,7 +3157,7 @@
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
-            "time": "2015-12-08 16:14:14"
+            "time": "2016-09-20T12:50:39+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3794,22 +3207,22 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "doctrine/annotations",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "30e07cf03edc3cd3ef579d0dd4dd8c58250799a5"
+                "reference": "bd4461328621bde0ae6b1b2675fbc6aca4ceb558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/30e07cf03edc3cd3ef579d0dd4dd8c58250799a5",
-                "reference": "30e07cf03edc3cd3ef579d0dd4dd8c58250799a5",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/bd4461328621bde0ae6b1b2675fbc6aca4ceb558",
+                "reference": "bd4461328621bde0ae6b1b2675fbc6aca4ceb558",
                 "shasum": ""
             },
             "require": {
@@ -3864,7 +3277,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2016-10-24 11:45:47"
+            "time": "2016-12-30T15:59:45+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -3934,32 +3347,33 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-10-29 11:16:17"
+            "time": "2016-10-29T11:16:17+00:00"
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
+                "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
-                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/1a4fb7e902202c33cce8c55989b945612943c2ba",
+                "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "doctrine/coding-standard": "~0.1@dev",
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -4000,20 +3414,20 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14 22:21:58"
+            "time": "2017-01-03T10:49:41+00:00"
         },
         {
             "name": "doctrine/common",
-            "version": "v2.6.2",
+            "version": "v2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "7bce00698899aa2c06fe7365c76e4d78ddb15fa3"
+                "reference": "930297026c8009a567ac051fd545bf6124150347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/7bce00698899aa2c06fe7365c76e4d78ddb15fa3",
-                "reference": "7bce00698899aa2c06fe7365c76e4d78ddb15fa3",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/930297026c8009a567ac051fd545bf6124150347",
+                "reference": "930297026c8009a567ac051fd545bf6124150347",
                 "shasum": ""
             },
             "require": {
@@ -4022,10 +3436,10 @@
                 "doctrine/collections": "1.*",
                 "doctrine/inflector": "1.*",
                 "doctrine/lexer": "1.*",
-                "php": "~5.5|~7.0"
+                "php": "~5.6|~7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8|~5.0"
+                "phpunit/phpunit": "^5.4.6"
             },
             "type": "library",
             "extra": {
@@ -4073,24 +3487,24 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2016-11-30 16:50:46"
+            "time": "2017-01-13T14:02:13+00:00"
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.5.5",
+            "version": "v2.5.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "9f8c05cd5225a320d56d4bfdb4772f10d045a0c9"
+                "reference": "7b9e911f9d8b30d43b96853dab26898c710d8f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/9f8c05cd5225a320d56d4bfdb4772f10d045a0c9",
-                "reference": "9f8c05cd5225a320d56d4bfdb4772f10d045a0c9",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/7b9e911f9d8b30d43b96853dab26898c710d8f44",
+                "reference": "7b9e911f9d8b30d43b96853dab26898c710d8f44",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": ">=2.4,<2.7-dev",
+                "doctrine/common": ">=2.4,<2.8-dev",
                 "php": ">=5.3.2"
             },
             "require-dev": {
@@ -4144,7 +3558,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2016-09-09 19:13:33"
+            "time": "2017-02-08T12:53:47+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -4198,7 +3612,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14 21:17:01"
+            "time": "2015-06-14T21:17:01+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -4252,7 +3666,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09 13:34:57"
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "fzaninotto/faker",
@@ -4300,7 +3714,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-04-29 12:21:54"
+            "time": "2016-04-29T12:21:54+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -4345,7 +3759,99 @@
             "keywords": [
                 "test"
             ],
-            "time": "2015-05-11 14:41:42"
+            "time": "2015-05-11T14:41:42+00:00"
+        },
+        {
+            "name": "itsgoingd/clockwork",
+            "version": "v1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itsgoingd/clockwork.git",
+                "reference": "9864bad522eba9f486e79c0cb7bc953967b64cf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itsgoingd/clockwork/zipball/9864bad522eba9f486e79c0cb7bc953967b64cf7",
+                "reference": "9864bad522eba9f486e79c0cb7bc953967b64cf7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "psr/log": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Clockwork\\": "Clockwork/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "itsgoingd",
+                    "email": "itsgoingd@luzer.sk",
+                    "homepage": "http://twitter.com/itsgoingd"
+                }
+            ],
+            "description": "Server-side component of Clockwork, a Chrome extension for PHP development",
+            "homepage": "http://github.com/itsgoingd/clockwork",
+            "keywords": [
+                "debugging",
+                "laravel",
+                "logging",
+                "profiling"
+            ],
+            "time": "2017-01-25T13:47:29+00:00"
+        },
+        {
+            "name": "laravel/browser-kit-testing",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/browser-kit-testing.git",
+                "reference": "0adfb725147815bff5516d157577f375a6e66ebd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/browser-kit-testing/zipball/0adfb725147815bff5516d157577f375a6e66ebd",
+                "reference": "0adfb725147815bff5516d157577f375a6e66ebd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/css-selector": "~3.1",
+                "symfony/dom-crawler": "~3.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\BrowserKitTesting\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Provides backwards compatibility for BrowserKit testing in Laravel 5.4.",
+            "keywords": [
+                "laravel",
+                "testing"
+            ],
+            "time": "2017-02-08T22:32:37+00:00"
         },
         {
             "name": "laravel/homestead",
@@ -4391,20 +3897,20 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2016-11-29 16:43:51"
+            "time": "2016-11-29T16:43:51+00:00"
         },
         {
             "name": "mockery/mockery",
-            "version": "0.9.6",
+            "version": "0.9.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/padraic/mockery.git",
-                "reference": "65d4ca18e15cb02eeb1e5336f884e46b9b905be0"
+                "reference": "1e5e2ffdc4d71d7358ed58a6fdd30a4a0c506855"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/mockery/zipball/65d4ca18e15cb02eeb1e5336f884e46b9b905be0",
-                "reference": "65d4ca18e15cb02eeb1e5336f884e46b9b905be0",
+                "url": "https://api.github.com/repos/padraic/mockery/zipball/1e5e2ffdc4d71d7358ed58a6fdd30a4a0c506855",
+                "reference": "1e5e2ffdc4d71d7358ed58a6fdd30a4a0c506855",
                 "shasum": ""
             },
             "require": {
@@ -4456,20 +3962,20 @@
                 "test double",
                 "testing"
             ],
-            "time": "2016-09-30 12:09:40"
+            "time": "2017-02-09T13:29:38+00:00"
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.5.5",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108"
+                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/399c1f9781e222f6eb6cc238796f5200d1b7f108",
-                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/5a5a9fc8025a08d8919be87d6884d5a92520cefe",
+                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe",
                 "shasum": ""
             },
             "require": {
@@ -4498,41 +4004,96 @@
                 "object",
                 "object graph"
             ],
-            "time": "2016-10-31 17:19:45"
+            "time": "2017-01-26T22:05:40+00:00"
         },
         {
-            "name": "orchestra/testbench",
-            "version": "v3.3.4",
+            "name": "orchestra/studio",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/orchestral/testbench.git",
-                "reference": "5f8e4a02999d8bd41d55958a17dcb75701f90f8f"
+                "url": "https://github.com/orchestral/studio.git",
+                "reference": "254d0d3296ff8b52cdb7f4eab2423fea2bcced3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/5f8e4a02999d8bd41d55958a17dcb75701f90f8f",
-                "reference": "5f8e4a02999d8bd41d55958a17dcb75701f90f8f",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/254d0d3296ff8b52cdb7f4eab2423fea2bcced3b",
+                "reference": "254d0d3296ff8b52cdb7f4eab2423fea2bcced3b",
                 "shasum": ""
             },
             "require": {
-                "fzaninotto/faker": "~1.4",
-                "laravel/framework": "~5.3.11",
-                "orchestra/database": "~3.3.1",
-                "php": ">=5.6.0",
-                "symfony/css-selector": "3.1.*",
-                "symfony/dom-crawler": "3.1.*"
+                "orchestra/support": "~3.4.0",
+                "php": ">=5.6.0"
             },
             "require-dev": {
-                "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "~4.8|~5.0"
+                "illuminate/console": "~5.4.0",
+                "illuminate/filesystem": "~5.4.0",
+                "league/flysystem": "~1.0",
+                "mockery/mockery": "^0.9.4"
             },
             "suggest": {
-                "phpunit/phpunit": "Allow to use PHPUnit for testing your Laravel Application/Package (~4.0|~5.0)."
+                "wikimedia/composer-merge-plugin": "Add workbench support for Orchestra Platform (~1.1)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Studio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Code Generator for Orchestra Platform",
+            "time": "2016-06-16T21:54:15+00:00"
+        },
+        {
+            "name": "orchestra/testbench",
+            "version": "v3.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/testbench.git",
+                "reference": "dbe2f7fab50b12c30ff4953d8be1c8890471eda1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/dbe2f7fab50b12c30ff4953d8be1c8890471eda1",
+                "reference": "dbe2f7fab50b12c30ff4953d8be1c8890471eda1",
+                "shasum": ""
+            },
+            "require": {
+                "fzaninotto/faker": "~1.4",
+                "laravel/framework": "~5.4.0",
+                "php": ">=5.6.0",
+                "symfony/css-selector": "~3.2.0",
+                "symfony/dom-crawler": "~3.2.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.4",
+                "orchestra/database": "~3.4.0",
+                "phpunit/phpunit": "~5.7"
+            },
+            "suggest": {
+                "mockery/mockery": "Allow to use Mockery for testing (^0.9.4).",
+                "orchestra/database": "Allow to use --realpath migration for testing (~3.4).",
+                "orchestra/testbench-browser-kit": "Allow to use legacy BrowserKit for testing (~3.4).",
+                "phpunit/phpunit": "Allow to use PHPUnit for testing (~5.7)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -4561,43 +4122,93 @@
                 "orchestral",
                 "testing"
             ],
-            "time": "2016-11-08 11:14:17"
+            "time": "2017-02-12T14:36:53+00:00"
         },
         {
-            "name": "orchestra/testing",
-            "version": "v3.3.0-BETA2",
+            "name": "orchestra/testbench-browser-kit",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/orchestral/testing.git",
-                "reference": "dc9ab65e4f431371de7e7e6d8cb8994c805942eb"
+                "url": "https://github.com/orchestral/testbench-browser-kit.git",
+                "reference": "bd69a46958360f09f573a4fa129ac23644b7c80f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testing/zipball/dc9ab65e4f431371de7e7e6d8cb8994c805942eb",
-                "reference": "dc9ab65e4f431371de7e7e6d8cb8994c805942eb",
+                "url": "https://api.github.com/repos/orchestral/testbench-browser-kit/zipball/bd69a46958360f09f573a4fa129ac23644b7c80f",
+                "reference": "bd69a46958360f09f573a4fa129ac23644b7c80f",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/browser-kit-testing": "~1.0.3",
+                "orchestra/testbench": "~3.4.2",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.4",
+                "orchestra/database": "~3.4.0",
+                "phpunit/phpunit": "~5.7"
+            },
+            "suggest": {
+                "orchestra/database": "Allow to use --realpath migration for testing (~3.4)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Testbench\\BrowserKit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Laravel Browser Kit Testing Helper for Packages Development",
+            "time": "2017-01-27T12:22:32+00:00"
+        },
+        {
+            "name": "orchestra/testing",
+            "version": "3.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/testing.git",
+                "reference": "ff2fed3c8bca6bef9bc1a66d8216f250e95839a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/testing/zipball/ff2fed3c8bca6bef9bc1a66d8216f250e95839a1",
+                "reference": "ff2fed3c8bca6bef9bc1a66d8216f250e95839a1",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "~2.5",
                 "fzaninotto/faker": "~1.4",
                 "mockery/mockery": "^0.9.4",
-                "orchestra/avatar": "~3.3.0",
-                "orchestra/contracts": "~3.3.0",
-                "orchestra/installer": "~3.3.0",
-                "orchestra/testbench": "~3.3.0",
-                "php": ">=5.5.0",
-                "phpunit/phpunit": "~4.8|~5.0"
+                "orchestra/avatar": "~3.4.0",
+                "orchestra/contracts": "~3.4.0",
+                "orchestra/testbench": "~3.4.0",
+                "orchestra/testbench-browser-kit": "~3.4.0",
+                "php": ">=5.6.0",
+                "phpunit/phpunit": "~5.7"
             },
             "require-dev": {
-                "orchestra/foundation": "~3.3.0"
-            },
-            "suggest": {
-                "orchestra/foundation": "Allow testing extension for Orchestra Platform (~3.3)."
+                "orchestra/foundation": "~3.4.0",
+                "orchestra/installer": "~3.4.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -4617,7 +4228,7 @@
                 }
             ],
             "description": "Orchestra Platform Testing Helper",
-            "time": "2016-12-03 12:53:52"
+            "time": "2017-01-28T04:31:56+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -4671,7 +4282,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2015-12-27 11:43:31"
+            "time": "2015-12-27T11:43:31+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -4716,7 +4327,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2016-09-30 07:12:33"
+            "time": "2016-09-30T07:12:33+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -4763,7 +4374,7 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-            "time": "2016-11-25 06:54:22"
+            "time": "2016-11-25T06:54:22+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -4826,20 +4437,20 @@
                 "spy",
                 "stub"
             ],
-            "time": "2016-11-21 14:58:47"
+            "time": "2016-11-21T14:58:47+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.3",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929"
+                "reference": "c19cfc7cbb0e9338d8c469c7eedecc2a428b0971"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/903fd6318d0a90b4770a009ff73e4a4e9c437929",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c19cfc7cbb0e9338d8c469c7eedecc2a428b0971",
+                "reference": "c19cfc7cbb0e9338d8c469c7eedecc2a428b0971",
                 "shasum": ""
             },
             "require": {
@@ -4889,7 +4500,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-11-28 16:00:31"
+            "time": "2017-01-20T15:06:43+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -4936,7 +4547,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03 07:40:28"
+            "time": "2016-10-03T07:40:28+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -4977,7 +4588,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21 13:50:34"
+            "time": "2015-06-21T13:50:34+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -5021,7 +4632,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2016-05-12 18:03:57"
+            "time": "2016-05-12T18:03:57+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -5070,20 +4681,20 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2016-11-15 14:06:22"
+            "time": "2016-11-15T14:06:22+00:00"
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.7.2",
+            "version": "5.7.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "336aff0ac52e306c98e7455bc3e8d7b0bf777a5e"
+                "reference": "60ebeed87a35ea46fd7f7d8029df2d6f013ebb34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/336aff0ac52e306c98e7455bc3e8d7b0bf777a5e",
-                "reference": "336aff0ac52e306c98e7455bc3e8d7b0bf777a5e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/60ebeed87a35ea46fd7f7d8029df2d6f013ebb34",
+                "reference": "60ebeed87a35ea46fd7f7d8029df2d6f013ebb34",
                 "shasum": ""
             },
             "require": {
@@ -5094,17 +4705,17 @@
                 "ext-xml": "*",
                 "myclabs/deep-copy": "~1.3",
                 "php": "^5.6 || ^7.0",
-                "phpspec/prophecy": "^1.3.1",
-                "phpunit/php-code-coverage": "^4.0.3",
+                "phpspec/prophecy": "^1.6.2",
+                "phpunit/php-code-coverage": "^4.0.4",
                 "phpunit/php-file-iterator": "~1.4",
                 "phpunit/php-text-template": "~1.2",
                 "phpunit/php-timer": "^1.0.6",
                 "phpunit/phpunit-mock-objects": "^3.2",
-                "sebastian/comparator": "~1.2.2",
+                "sebastian/comparator": "^1.2.4",
                 "sebastian/diff": "~1.2",
                 "sebastian/environment": "^1.3.4 || ^2.0",
                 "sebastian/exporter": "~2.0",
-                "sebastian/global-state": "~1.0",
+                "sebastian/global-state": "^1.1",
                 "sebastian/object-enumerator": "~2.0",
                 "sebastian/resource-operations": "~1.0",
                 "sebastian/version": "~1.0|~2.0",
@@ -5152,20 +4763,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-12-03 08:33:00"
+            "time": "2017-02-10T09:05:10+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.4.2",
+            "version": "3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "90a08f5deed5f7ac35463c161f2e8fa0e5652faf"
+                "reference": "3ab72b65b39b491e0c011e2e09bb2206c2aa8e24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/90a08f5deed5f7ac35463c161f2e8fa0e5652faf",
-                "reference": "90a08f5deed5f7ac35463c161f2e8fa0e5652faf",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/3ab72b65b39b491e0c011e2e09bb2206c2aa8e24",
+                "reference": "3ab72b65b39b491e0c011e2e09bb2206c2aa8e24",
                 "shasum": ""
             },
             "require": {
@@ -5211,7 +4822,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-11-27 07:52:03"
+            "time": "2016-12-08T20:27:08+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -5256,20 +4867,20 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2016-02-13 06:45:14"
+            "time": "2016-02-13T06:45:14+00:00"
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.2",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f"
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
-                "reference": "6a1ed12e8b2409076ab22e3897126211ff8b1f7f",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
+                "reference": "2b7424b55f5047b47ac6e5ccb20b2aea4011d9be",
                 "shasum": ""
             },
             "require": {
@@ -5320,7 +4931,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2016-11-19 09:18:40"
+            "time": "2017-01-29T09:50:25+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -5372,7 +4983,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2015-12-08 07:14:41"
+            "time": "2015-12-08T07:14:41+00:00"
         },
         {
             "name": "sebastian/environment",
@@ -5422,7 +5033,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-11-26 07:53:53"
+            "time": "2016-11-26T07:53:53+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -5489,7 +5100,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2016-11-19 08:54:04"
+            "time": "2016-11-19T08:54:04+00:00"
         },
         {
             "name": "sebastian/global-state",
@@ -5540,7 +5151,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2015-10-12 03:26:01"
+            "time": "2015-10-12T03:26:01+00:00"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -5586,7 +5197,7 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "time": "2016-11-19 07:35:10"
+            "time": "2016-11-19T07:35:10+00:00"
         },
         {
             "name": "sebastian/recursion-context",
@@ -5639,7 +5250,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2016-11-19 07:33:16"
+            "time": "2016-11-19T07:33:16+00:00"
         },
         {
             "name": "sebastian/resource-operations",
@@ -5681,7 +5292,7 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "time": "2015-07-28 20:34:47"
+            "time": "2015-07-28T20:34:47+00:00"
         },
         {
             "name": "sebastian/version",
@@ -5724,20 +5335,20 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2016-10-03 07:35:21"
+            "time": "2016-10-03T07:35:21+00:00"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v3.1.7",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "1eb3b4d216e8db117218dd2bb7d23dfe67bdf518"
+                "reference": "b814b41373fc4e535aff8c765abe39545216f391"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/1eb3b4d216e8db117218dd2bb7d23dfe67bdf518",
-                "reference": "1eb3b4d216e8db117218dd2bb7d23dfe67bdf518",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/b814b41373fc4e535aff8c765abe39545216f391",
+                "reference": "b814b41373fc4e535aff8c765abe39545216f391",
                 "shasum": ""
             },
             "require": {
@@ -5753,7 +5364,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -5780,20 +5391,20 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14 16:20:02"
+            "time": "2017-01-21T17:14:11+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.0",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "f2300ba8fbb002c028710b92e1906e7457410693"
+                "reference": "e1718c6bf57e1efbb8793ada951584b2ab27775b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/f2300ba8fbb002c028710b92e1906e7457410693",
-                "reference": "f2300ba8fbb002c028710b92e1906e7457410693",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/e1718c6bf57e1efbb8793ada951584b2ab27775b",
+                "reference": "e1718c6bf57e1efbb8793ada951584b2ab27775b",
                 "shasum": ""
             },
             "require": {
@@ -5835,7 +5446,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:17:59"
+            "time": "2017-01-21T17:06:35+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -5885,14 +5496,12 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-11-23 20:04:58"
+            "time": "2016-11-23T20:04:58+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "orchestra/foundation": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
