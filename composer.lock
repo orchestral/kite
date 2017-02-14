@@ -1186,17 +1186,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "c5735f621e2b61dcd23bcf3e810cc2689540cadf"
+                "reference": "8aeccfac1cd3294cdb757099310718a056c5f4f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/c5735f621e2b61dcd23bcf3e810cc2689540cadf",
-                "reference": "c5735f621e2b61dcd23bcf3e810cc2689540cadf",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/8aeccfac1cd3294cdb757099310718a056c5f4f0",
+                "reference": "8aeccfac1cd3294cdb757099310718a056c5f4f0",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "~5.4.0",
-                "laravie/authen": "~1.0",
+                "laravie/authen": "~1.1",
                 "laravie/html": "~5.4.0",
                 "mpociot/reauthenticate": "~1.1",
                 "orchestra/asset": "~3.4.0",
@@ -1220,7 +1220,7 @@
             "require-dev": {
                 "orchestra/installer": "~3.4.0",
                 "orchestra/testing": "~3.4.0",
-                "phpunit/phpunit": "~5.6"
+                "phpunit/phpunit": "~5.7"
             },
             "suggest": {
                 "orchestra/avatar": "Add gravatar support for Orchestra Platform (~3.4).",
@@ -1264,7 +1264,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2017-02-13T10:44:43+00:00"
+            "time": "2017-02-14T01:12:02+00:00"
         },
         {
             "name": "orchestra/html",
@@ -1272,12 +1272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "ecfc1dbb246743733a46cc036424874fce1e3c2a"
+                "reference": "4845926ede030dd24492213368cd560a37099edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/ecfc1dbb246743733a46cc036424874fce1e3c2a",
-                "reference": "ecfc1dbb246743733a46cc036424874fce1e3c2a",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/4845926ede030dd24492213368cd560a37099edb",
+                "reference": "4845926ede030dd24492213368cd560a37099edb",
                 "shasum": ""
             },
             "require": {
@@ -1323,20 +1323,20 @@
                 "orchestral",
                 "table"
             ],
-            "time": "2017-01-22T04:17:35+00:00"
+            "time": "2017-02-14T01:35:54+00:00"
         },
         {
             "name": "orchestra/installer",
-            "version": "dev-master",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/installer.git",
-                "reference": "3021d88dc8bd16ed974aa5f976ad98bc3611e171"
+                "reference": "912c41f8e2003864842e21df4daabff1a839e46f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/installer/zipball/3021d88dc8bd16ed974aa5f976ad98bc3611e171",
-                "reference": "3021d88dc8bd16ed974aa5f976ad98bc3611e171",
+                "url": "https://api.github.com/repos/orchestral/installer/zipball/912c41f8e2003864842e21df4daabff1a839e46f",
+                "reference": "912c41f8e2003864842e21df4daabff1a839e46f",
                 "shasum": ""
             },
             "require": {
@@ -1347,7 +1347,7 @@
                 "mockery/mockery": "^0.9.4",
                 "orchestra/foundation": "~3.4.0",
                 "orchestra/testing": "~3.4.0",
-                "phpunit/phpunit": "~4.0|~5.0"
+                "phpunit/phpunit": "~5.7"
             },
             "type": "library",
             "extra": {
@@ -1378,7 +1378,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2017-01-27T02:19:05+00:00"
+            "time": "2017-02-14T01:26:39+00:00"
         },
         {
             "name": "orchestra/kernel",
@@ -1574,16 +1574,16 @@
         },
         {
             "name": "orchestra/model",
-            "version": "dev-master",
+            "version": "3.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "77a43f735771c1611f625dc812e3a72053459498"
+                "reference": "3c6150a2f53f68929a392cebcb5688c674d6e256"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/77a43f735771c1611f625dc812e3a72053459498",
-                "reference": "77a43f735771c1611f625dc812e3a72053459498",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/3c6150a2f53f68929a392cebcb5688c674d6e256",
+                "reference": "3c6150a2f53f68929a392cebcb5688c674d6e256",
                 "shasum": ""
             },
             "require": {
@@ -1595,7 +1595,8 @@
             "require-dev": {
                 "illuminate/auth": "~5.4.0",
                 "illuminate/database": "~5.4.0",
-                "mockery/mockery": "^0.9.4"
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "~5.7"
             },
             "type": "library",
             "extra": {
@@ -1627,7 +1628,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2017-01-06T01:05:22+00:00"
+            "time": "2017-02-13T11:31:47+00:00"
         },
         {
             "name": "orchestra/notifier",
@@ -2004,16 +2005,16 @@
         },
         {
             "name": "orchestra/widget",
-            "version": "3.4.x-dev",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "fc85d010bdf850955a323e6819316887aa453680"
+                "reference": "3c5e60be82bda041e1b929b015578bbefd91f186"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/fc85d010bdf850955a323e6819316887aa453680",
-                "reference": "fc85d010bdf850955a323e6819316887aa453680",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/3c5e60be82bda041e1b929b015578bbefd91f186",
+                "reference": "3c5e60be82bda041e1b929b015578bbefd91f186",
                 "shasum": ""
             },
             "require": {
@@ -2022,7 +2023,8 @@
             },
             "require-dev": {
                 "illuminate/container": "~5.4.0",
-                "mockery/mockery": "~0.9.4"
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~5.7"
             },
             "type": "library",
             "extra": {
@@ -2054,7 +2056,7 @@
                 "orchestral",
                 "widget"
             ],
-            "time": "2017-01-22T05:00:28+00:00"
+            "time": "2017-02-13T11:44:51+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -4182,12 +4184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testing.git",
-                "reference": "ff2fed3c8bca6bef9bc1a66d8216f250e95839a1"
+                "reference": "d68d18a15e657eb92b47dccb4417a17d63afa5d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testing/zipball/ff2fed3c8bca6bef9bc1a66d8216f250e95839a1",
-                "reference": "ff2fed3c8bca6bef9bc1a66d8216f250e95839a1",
+                "url": "https://api.github.com/repos/orchestral/testing/zipball/d68d18a15e657eb92b47dccb4417a17d63afa5d1",
+                "reference": "d68d18a15e657eb92b47dccb4417a17d63afa5d1",
                 "shasum": ""
             },
             "require": {
@@ -4228,7 +4230,7 @@
                 }
             ],
             "description": "Orchestra Platform Testing Helper",
-            "time": "2017-01-28T04:31:56+00:00"
+            "time": "2017-02-14T00:53:57+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
