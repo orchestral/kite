@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-BRANCH=3.3
+BRANCH=3.4
 DIR=`pwd`
 
 sh chmod.sh
@@ -62,25 +62,25 @@ if [[ -d ../control ]]; then
     cp -Rf ./resources/views/packages/orchestra/control/* ../control/resources/views/
 fi
 
-if [[ -d ../story ]]; then
-    echo '>>> Sync Story'
+# if [[ -d ../story ]]; then
+#     echo '>>> Sync Story'
 
-    cd ../story
-    git checkout $BRANCH
-    cd $DIR
+#     cd ../story
+#     git checkout $BRANCH
+#     cd $DIR
 
-    rm -Rf ../story/resources/views/*
-    cp -Rf ./resources/views/packages/orchestra/story/* ../story/resources/views/
-fi
+#     rm -Rf ../story/resources/views/*
+#     cp -Rf ./resources/views/packages/orchestra/story/* ../story/resources/views/
+# fi
 
-if [[ -d ../studio ]]; then
-    echo '>>> Sync Studio'
+# if [[ -d ../studio ]]; then
+#     echo '>>> Sync Studio'
 
-    cd ../studio
-    git checkout $BRANCH
-    cd $DIR
+#     cd ../studio
+#     git checkout $BRANCH
+#     cd $DIR
 
-    cp -Rf ./.bowerrc ../studio/stubs/.bowerrc
-    cp -Rf ./bower.json ../studio/stubs/bower.json
-    cp -Rf ./gulpfile.js ../studio/stubs/gulpfile.js
-fi
+#     cp -Rf ./.bowerrc ../studio/stubs/.bowerrc
+#     cp -Rf ./bower.json ../studio/stubs/bower.json
+#     cp -Rf ./gulpfile.js ../studio/stubs/gulpfile.js
+# fi
