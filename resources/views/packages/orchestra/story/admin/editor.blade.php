@@ -43,10 +43,6 @@
 
 @push('orchestra.footer')
 <script>
-  var app = Platform.make('storycms', {
-    data: {
-      content: {!! $content->makeVisible('slug')->toJson() !!}
-    }
-  }).nav('storycms-write').$mount('body')
+  var app = Platform.make('storycms').nav('storycms-write').$mount('body')
 </script>
 @endpush
